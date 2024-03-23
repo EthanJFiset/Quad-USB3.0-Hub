@@ -1,0 +1,2190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>C:\Users\ethan\OneDrive\Documents\KiCad Projects\Hybrid USB Hub (USB3.0)\Hybrid USB Hub (USB3.0).kicad_sch</source>
+    <date>2023-07-25 3:55:52 PM</date>
+    <tool>Eeschema (6.0.8)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Powered USB3.0 Quad Hub</title>
+        <company/>
+        <rev>v1.0</rev>
+        <date/>
+        <source>Hybrid USB Hub (USB3.0).kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/Power/" tstamps="/6e7d7f58-88eb-457e-9b8e-4605e6425d68/">
+      <title_block>
+        <title>Powered USB3.0 Quad Hub</title>
+        <company/>
+        <rev>v1.0</rev>
+        <date/>
+        <source>Power_sch.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="3" name="/USB Outputs 1&amp;2/" tstamps="/0dacc84d-2a2f-4e62-9cf5-601ea78b56d7/">
+      <title_block>
+        <title>Powered USB3.0 Quad Hub</title>
+        <company/>
+        <rev>v1.0</rev>
+        <date/>
+        <source>USB_OUT_sch.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="4" name="/USB Outputs 3&amp;4/" tstamps="/939c9811-ae5c-4de5-a354-9ca21a66669f/">
+      <title_block>
+        <title>Powered USB3.0 Quad Hub</title>
+        <company/>
+        <rev>v1.0</rev>
+        <date/>
+        <source>USB_OUT_2_sch.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>0.1u</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: Hybrid USB Hub (USB3.0).kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a0c48a90-5773-4217-8b8e-109277a74484</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>0.1u</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: Hybrid USB Hub (USB3.0).kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b83feeca-813a-490a-a715-b98fd8b86d3c</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>10p</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: Hybrid USB Hub (USB3.0).kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0e6f2acc-41d6-4c49-a710-40add09ce7e1</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>10p</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: Hybrid USB Hub (USB3.0).kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d8fbd21d-10c5-4717-bc40-5204af39444e</tstamps>
+    </comp>
+    <comp ref="C5">
+      <value>1u</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: Hybrid USB Hub (USB3.0).kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0aee7409-7650-4355-bbf0-a0a02e4a9ab4</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>TPD6E05U06RVZR</value>
+      <footprint>TPD SPD:TPD6E05U06RVZR</footprint>
+      <fields>
+        <field name="MANUFACTURER">Texas Instruments</field>
+        <field name="PARTREV">L</field>
+        <field name="STANDARD">IPC-7351B</field>
+      </fields>
+      <libsource lib="TPD6E05U06RVZR" part="TPD6E05U06RVZR" description=""/>
+      <property name="PARTREV" value="L"/>
+      <property name="STANDARD" value="IPC-7351B"/>
+      <property name="MANUFACTURER" value="Texas Instruments"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: Hybrid USB Hub (USB3.0).kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ae73388d-31ba-49dd-a832-0c4c41e102ff</tstamps>
+    </comp>
+    <comp ref="H1">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: Hybrid USB Hub (USB3.0).kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>66e31d64-1eb3-4282-a3a6-5eff22734b5c</tstamps>
+    </comp>
+    <comp ref="H2">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: Hybrid USB Hub (USB3.0).kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d8c498f3-562c-4c49-86fb-69cc322ee45a</tstamps>
+    </comp>
+    <comp ref="H3">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: Hybrid USB Hub (USB3.0).kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>30093685-ac57-47a8-9b0f-fba83ea5778b</tstamps>
+    </comp>
+    <comp ref="H4">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: Hybrid USB Hub (USB3.0).kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>791ab4a7-eab6-4a2d-826d-0f5143570b69</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>USB3_A</value>
+      <footprint>Connector_USB:USB3_A_Molex_48393-001</footprint>
+      <libsource lib="Connector" part="USB3_A" description="USB 3.0 A connector"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: Hybrid USB Hub (USB3.0).kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5e946d0d-b4ea-4a15-9531-48e991c39dcb</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>1M</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: Hybrid USB Hub (USB3.0).kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5c7ac771-2b33-49b7-ac45-98e88da24359</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: Hybrid USB Hub (USB3.0).kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>28e39339-a1b4-4fdf-a3c1-d32204953c18</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: Hybrid USB Hub (USB3.0).kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>04cfad7e-74d9-482e-a693-58be9f9d5431</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: Hybrid USB Hub (USB3.0).kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>36b1c449-f210-4b8a-8665-6d2fe773600f</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>9.52K</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: Hybrid USB Hub (USB3.0).kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f115130d-f0ce-4495-9643-987638d293b2</tstamps>
+    </comp>
+    <comp ref="R6">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: Hybrid USB Hub (USB3.0).kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7cbe5996-873d-44d8-a960-ef808532194e</tstamps>
+    </comp>
+    <comp ref="R7">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: Hybrid USB Hub (USB3.0).kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0da24311-9351-45d0-b06d-019c836468cd</tstamps>
+    </comp>
+    <comp ref="R8">
+      <value>90.1K</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: Hybrid USB Hub (USB3.0).kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0e498c11-8ad6-4111-a48f-ba3f187a2e4f</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>TUSB8041</value>
+      <footprint>Package_DFN_QFN:QFN-64-1EP_9x9mm_P0.5mm_EP6x6mm_ThermalVias</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/tusb8041.pdf</datasheet>
+      <libsource lib="Interface_USB" part="TUSB8041" description="four port USB 3.0 Hub"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: Hybrid USB Hub (USB3.0).kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>95bebbe6-aba5-4907-8095-9db0c08b3d57</tstamps>
+    </comp>
+    <comp ref="Y1">
+      <value>24MHz</value>
+      <footprint>Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm</footprint>
+      <libsource lib="Device" part="Crystal_GND24" description="Four pin crystal, GND on pins 2 and 4"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: Hybrid USB Hub (USB3.0).kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fc9280d0-7ff4-4f64-be10-b072d7cb88be</tstamps>
+    </comp>
+    <comp ref="C6">
+      <value>2.2u</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="File: Power_sch.kicad_sch"/>
+      <sheetpath names="/Power/" tstamps="/6e7d7f58-88eb-457e-9b8e-4605e6425d68/"/>
+      <tstamps>b92a8548-5319-423f-b2aa-71d3f29f2a10</tstamps>
+    </comp>
+    <comp ref="C8">
+      <value>.1u</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="File: Power_sch.kicad_sch"/>
+      <sheetpath names="/Power/" tstamps="/6e7d7f58-88eb-457e-9b8e-4605e6425d68/"/>
+      <tstamps>efc8214c-d9dd-41ce-b3d8-f3ef56055628</tstamps>
+    </comp>
+    <comp ref="C9">
+      <value>2.2u</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="File: Power_sch.kicad_sch"/>
+      <sheetpath names="/Power/" tstamps="/6e7d7f58-88eb-457e-9b8e-4605e6425d68/"/>
+      <tstamps>d0138fbc-32b4-4a6f-88ff-6ab9983a6fea</tstamps>
+    </comp>
+    <comp ref="C10">
+      <value>10n</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="File: Power_sch.kicad_sch"/>
+      <sheetpath names="/Power/" tstamps="/6e7d7f58-88eb-457e-9b8e-4605e6425d68/"/>
+      <tstamps>55dad93c-a5c2-4df7-9744-cad6c90717b4</tstamps>
+    </comp>
+    <comp ref="C11">
+      <value>2.2u</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="File: Power_sch.kicad_sch"/>
+      <sheetpath names="/Power/" tstamps="/6e7d7f58-88eb-457e-9b8e-4605e6425d68/"/>
+      <tstamps>0f83bd63-1565-4ec2-a05b-af8b37546c56</tstamps>
+    </comp>
+    <comp ref="C12">
+      <value>10u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="File: Power_sch.kicad_sch"/>
+      <sheetpath names="/Power/" tstamps="/6e7d7f58-88eb-457e-9b8e-4605e6425d68/"/>
+      <tstamps>114ef95d-efc0-490c-b45d-8e1acfd3dd3e</tstamps>
+    </comp>
+    <comp ref="C13">
+      <value>2.2u</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="File: Power_sch.kicad_sch"/>
+      <sheetpath names="/Power/" tstamps="/6e7d7f58-88eb-457e-9b8e-4605e6425d68/"/>
+      <tstamps>64dfa33e-3d32-49f5-814f-fb88c2c81f9c</tstamps>
+    </comp>
+    <comp ref="C14">
+      <value>.1u</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="File: Power_sch.kicad_sch"/>
+      <sheetpath names="/Power/" tstamps="/6e7d7f58-88eb-457e-9b8e-4605e6425d68/"/>
+      <tstamps>b47c7457-679b-4570-99b8-f0f8d91eac65</tstamps>
+    </comp>
+    <comp ref="C15">
+      <value>.1u</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="File: Power_sch.kicad_sch"/>
+      <sheetpath names="/Power/" tstamps="/6e7d7f58-88eb-457e-9b8e-4605e6425d68/"/>
+      <tstamps>31856473-284d-46d9-84bd-3735e8c40118</tstamps>
+    </comp>
+    <comp ref="C16">
+      <value>.1u</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="File: Power_sch.kicad_sch"/>
+      <sheetpath names="/Power/" tstamps="/6e7d7f58-88eb-457e-9b8e-4605e6425d68/"/>
+      <tstamps>d649acaa-786f-4f50-ab13-2b4264676eea</tstamps>
+    </comp>
+    <comp ref="C17">
+      <value>.1u</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="File: Power_sch.kicad_sch"/>
+      <sheetpath names="/Power/" tstamps="/6e7d7f58-88eb-457e-9b8e-4605e6425d68/"/>
+      <tstamps>495742fa-43eb-41a9-9552-6f988b223690</tstamps>
+    </comp>
+    <comp ref="C18">
+      <value>10n</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="File: Power_sch.kicad_sch"/>
+      <sheetpath names="/Power/" tstamps="/6e7d7f58-88eb-457e-9b8e-4605e6425d68/"/>
+      <tstamps>9ffc4c4b-c46c-4725-8c9d-c33353ef45f3</tstamps>
+    </comp>
+    <comp ref="C19">
+      <value>2.2u</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="File: Power_sch.kicad_sch"/>
+      <sheetpath names="/Power/" tstamps="/6e7d7f58-88eb-457e-9b8e-4605e6425d68/"/>
+      <tstamps>84835862-6ff5-43fa-b659-c09c319029fc</tstamps>
+    </comp>
+    <comp ref="C20">
+      <value>10u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="File: Power_sch.kicad_sch"/>
+      <sheetpath names="/Power/" tstamps="/6e7d7f58-88eb-457e-9b8e-4605e6425d68/"/>
+      <tstamps>d004df4c-4105-4be7-b825-56593a4f26b4</tstamps>
+    </comp>
+    <comp ref="C21">
+      <value>.1u</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="File: Power_sch.kicad_sch"/>
+      <sheetpath names="/Power/" tstamps="/6e7d7f58-88eb-457e-9b8e-4605e6425d68/"/>
+      <tstamps>2cb6207f-7d42-4a7b-8a68-2ae893237423</tstamps>
+    </comp>
+    <comp ref="C22">
+      <value>.1u</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="File: Power_sch.kicad_sch"/>
+      <sheetpath names="/Power/" tstamps="/6e7d7f58-88eb-457e-9b8e-4605e6425d68/"/>
+      <tstamps>e7e586e7-2f2d-4e22-8df7-d450bba8a61c</tstamps>
+    </comp>
+    <comp ref="C23">
+      <value>.1u</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="File: Power_sch.kicad_sch"/>
+      <sheetpath names="/Power/" tstamps="/6e7d7f58-88eb-457e-9b8e-4605e6425d68/"/>
+      <tstamps>2a160c17-a710-42e8-9c3e-d6f48cd4b75c</tstamps>
+    </comp>
+    <comp ref="C24">
+      <value>.1u</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="File: Power_sch.kicad_sch"/>
+      <sheetpath names="/Power/" tstamps="/6e7d7f58-88eb-457e-9b8e-4605e6425d68/"/>
+      <tstamps>1f6a4532-a910-42f5-8035-e63710618186</tstamps>
+    </comp>
+    <comp ref="C25">
+      <value>.1u</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="File: Power_sch.kicad_sch"/>
+      <sheetpath names="/Power/" tstamps="/6e7d7f58-88eb-457e-9b8e-4605e6425d68/"/>
+      <tstamps>fb9d4bbf-c61c-4e93-8d36-0d9a6b14a17f</tstamps>
+    </comp>
+    <comp ref="C26">
+      <value>.1u</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="File: Power_sch.kicad_sch"/>
+      <sheetpath names="/Power/" tstamps="/6e7d7f58-88eb-457e-9b8e-4605e6425d68/"/>
+      <tstamps>b77c5325-26ba-49ca-b4df-ddc8057e6996</tstamps>
+    </comp>
+    <comp ref="C27">
+      <value>.1u</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="File: Power_sch.kicad_sch"/>
+      <sheetpath names="/Power/" tstamps="/6e7d7f58-88eb-457e-9b8e-4605e6425d68/"/>
+      <tstamps>db7f0815-3645-4fdc-b4b7-f31f1a964d76</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>Barrel_Jack_Switch</value>
+      <footprint>Connector_BarrelJack:BarrelJack_CUI_PJ-063AH_Horizontal</footprint>
+      <libsource lib="Connector" part="Barrel_Jack_Switch" description="DC Barrel Jack with an internal switch"/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="File: Power_sch.kicad_sch"/>
+      <sheetpath names="/Power/" tstamps="/6e7d7f58-88eb-457e-9b8e-4605e6425d68/"/>
+      <tstamps>dc6e8f95-6f75-4eb6-a38a-b6baf77bd60a</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>SPX3819M5-L-3-3</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-5</footprint>
+      <datasheet>https://www.exar.com/content/document.ashx?id=22106&amp;languageid=1033&amp;type=Datasheet&amp;partnumber=SPX3819&amp;filename=SPX3819.pdf&amp;part=SPX3819</datasheet>
+      <libsource lib="Regulator_Linear" part="SPX3819M5-L-3-3" description="500mA Low drop-out regulator, Fixed Output 3.3V, SOT-23-5"/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="File: Power_sch.kicad_sch"/>
+      <sheetpath names="/Power/" tstamps="/6e7d7f58-88eb-457e-9b8e-4605e6425d68/"/>
+      <tstamps>5ee23150-1c6d-4a22-bfd9-67b12c6005f0</tstamps>
+    </comp>
+    <comp ref="U3">
+      <value>SPX3819M5-L-1-2</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-5</footprint>
+      <datasheet>https://www.exar.com/content/document.ashx?id=22106&amp;languageid=1033&amp;type=Datasheet&amp;partnumber=SPX3819&amp;filename=SPX3819.pdf&amp;part=SPX3819</datasheet>
+      <libsource lib="Regulator_Linear" part="SPX3819M5-L-1-2" description="500mA Low drop-out regulator, Fixed Output 1.2V, SOT-23-5"/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="File: Power_sch.kicad_sch"/>
+      <sheetpath names="/Power/" tstamps="/6e7d7f58-88eb-457e-9b8e-4605e6425d68/"/>
+      <tstamps>57122a55-8349-4650-929f-9099bd0b946f</tstamps>
+    </comp>
+    <comp ref="C28">
+      <value>4.7u</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="USB Outputs 1&amp;2"/>
+      <property name="Sheetfile" value="File: USB_OUT_sch.kicad_sch"/>
+      <sheetpath names="/USB Outputs 1&amp;2/" tstamps="/0dacc84d-2a2f-4e62-9cf5-601ea78b56d7/"/>
+      <tstamps>f5fe3b60-c9ae-4d24-9d73-19dc588b02e1</tstamps>
+    </comp>
+    <comp ref="C29">
+      <value>4.7u</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="USB Outputs 1&amp;2"/>
+      <property name="Sheetfile" value="File: USB_OUT_sch.kicad_sch"/>
+      <sheetpath names="/USB Outputs 1&amp;2/" tstamps="/0dacc84d-2a2f-4e62-9cf5-601ea78b56d7/"/>
+      <tstamps>f3272c99-dc99-4042-b7ad-2ecc0645363e</tstamps>
+    </comp>
+    <comp ref="C30">
+      <value>.1u</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="USB Outputs 1&amp;2"/>
+      <property name="Sheetfile" value="File: USB_OUT_sch.kicad_sch"/>
+      <sheetpath names="/USB Outputs 1&amp;2/" tstamps="/0dacc84d-2a2f-4e62-9cf5-601ea78b56d7/"/>
+      <tstamps>14d0e48e-e74b-41b1-af12-7433987c4ceb</tstamps>
+    </comp>
+    <comp ref="C31">
+      <value>.1u</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="USB Outputs 1&amp;2"/>
+      <property name="Sheetfile" value="File: USB_OUT_sch.kicad_sch"/>
+      <sheetpath names="/USB Outputs 1&amp;2/" tstamps="/0dacc84d-2a2f-4e62-9cf5-601ea78b56d7/"/>
+      <tstamps>cbfbb1c5-265b-4cf2-b029-cc470af0efc0</tstamps>
+    </comp>
+    <comp ref="C32">
+      <value>2.2u</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="USB Outputs 1&amp;2"/>
+      <property name="Sheetfile" value="File: USB_OUT_sch.kicad_sch"/>
+      <sheetpath names="/USB Outputs 1&amp;2/" tstamps="/0dacc84d-2a2f-4e62-9cf5-601ea78b56d7/"/>
+      <tstamps>edaae7c0-83ad-4a53-9b19-c65fb3714091</tstamps>
+    </comp>
+    <comp ref="C33">
+      <value>2.2u</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="USB Outputs 1&amp;2"/>
+      <property name="Sheetfile" value="File: USB_OUT_sch.kicad_sch"/>
+      <sheetpath names="/USB Outputs 1&amp;2/" tstamps="/0dacc84d-2a2f-4e62-9cf5-601ea78b56d7/"/>
+      <tstamps>6e192751-2ad7-41b7-b30e-dcd3a2235143</tstamps>
+    </comp>
+    <comp ref="C34">
+      <value>0.1u</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="USB Outputs 1&amp;2"/>
+      <property name="Sheetfile" value="File: USB_OUT_sch.kicad_sch"/>
+      <sheetpath names="/USB Outputs 1&amp;2/" tstamps="/0dacc84d-2a2f-4e62-9cf5-601ea78b56d7/"/>
+      <tstamps>fab5f13c-3518-4f4c-8122-c215323541cd</tstamps>
+    </comp>
+    <comp ref="C35">
+      <value>0.1u</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="USB Outputs 1&amp;2"/>
+      <property name="Sheetfile" value="File: USB_OUT_sch.kicad_sch"/>
+      <sheetpath names="/USB Outputs 1&amp;2/" tstamps="/0dacc84d-2a2f-4e62-9cf5-601ea78b56d7/"/>
+      <tstamps>406e0f98-d9df-4247-9db6-f1d32ac9bfd7</tstamps>
+    </comp>
+    <comp ref="C36">
+      <value>0.1u</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="USB Outputs 1&amp;2"/>
+      <property name="Sheetfile" value="File: USB_OUT_sch.kicad_sch"/>
+      <sheetpath names="/USB Outputs 1&amp;2/" tstamps="/0dacc84d-2a2f-4e62-9cf5-601ea78b56d7/"/>
+      <tstamps>cd26b4fd-eaa3-4de3-b1b0-d4da8eb9b09d</tstamps>
+    </comp>
+    <comp ref="C37">
+      <value>0.1u</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="USB Outputs 1&amp;2"/>
+      <property name="Sheetfile" value="File: USB_OUT_sch.kicad_sch"/>
+      <sheetpath names="/USB Outputs 1&amp;2/" tstamps="/0dacc84d-2a2f-4e62-9cf5-601ea78b56d7/"/>
+      <tstamps>468f1e7e-3359-454d-be6e-4cb350f99564</tstamps>
+    </comp>
+    <comp ref="C38">
+      <value>100u</value>
+      <footprint>Capacitor_THT:CP_Radial_D5.0mm_P2.50mm</footprint>
+      <libsource lib="Device" part="C_Polarized_US" description="Polarized capacitor, US symbol"/>
+      <property name="Sheetname" value="USB Outputs 1&amp;2"/>
+      <property name="Sheetfile" value="File: USB_OUT_sch.kicad_sch"/>
+      <sheetpath names="/USB Outputs 1&amp;2/" tstamps="/0dacc84d-2a2f-4e62-9cf5-601ea78b56d7/"/>
+      <tstamps>c6b1186f-2a3e-4be6-985b-db7952f67ea2</tstamps>
+    </comp>
+    <comp ref="C39">
+      <value>100u</value>
+      <footprint>Capacitor_THT:CP_Radial_D5.0mm_P2.50mm</footprint>
+      <libsource lib="Device" part="C_Polarized_US" description="Polarized capacitor, US symbol"/>
+      <property name="Sheetname" value="USB Outputs 1&amp;2"/>
+      <property name="Sheetfile" value="File: USB_OUT_sch.kicad_sch"/>
+      <sheetpath names="/USB Outputs 1&amp;2/" tstamps="/0dacc84d-2a2f-4e62-9cf5-601ea78b56d7/"/>
+      <tstamps>a5272288-30d2-4c56-ad52-544d8bc5331a</tstamps>
+    </comp>
+    <comp ref="D2">
+      <value>TPD6E05U06RVZR</value>
+      <footprint>TPD SPD:TPD6E05U06RVZR</footprint>
+      <fields>
+        <field name="MANUFACTURER">Texas Instruments</field>
+        <field name="PARTREV">L</field>
+        <field name="STANDARD">IPC-7351B</field>
+      </fields>
+      <libsource lib="" part="TPD6E05U06RVZR_1" description=""/>
+      <property name="PARTREV" value="L"/>
+      <property name="STANDARD" value="IPC-7351B"/>
+      <property name="MANUFACTURER" value="Texas Instruments"/>
+      <property name="Sheetname" value="USB Outputs 1&amp;2"/>
+      <property name="Sheetfile" value="File: USB_OUT_sch.kicad_sch"/>
+      <sheetpath names="/USB Outputs 1&amp;2/" tstamps="/0dacc84d-2a2f-4e62-9cf5-601ea78b56d7/"/>
+      <tstamps>297ce2d9-6917-418e-9927-dec54feb4699</tstamps>
+    </comp>
+    <comp ref="D3">
+      <value>TPD6E05U06RVZR</value>
+      <footprint>TPD SPD:TPD6E05U06RVZR</footprint>
+      <fields>
+        <field name="MANUFACTURER">Texas Instruments</field>
+        <field name="PARTREV">L</field>
+        <field name="STANDARD">IPC-7351B</field>
+      </fields>
+      <libsource lib="TPD6E05U06RVZR" part="TPD6E05U06RVZR" description=""/>
+      <property name="PARTREV" value="L"/>
+      <property name="STANDARD" value="IPC-7351B"/>
+      <property name="MANUFACTURER" value="Texas Instruments"/>
+      <property name="Sheetname" value="USB Outputs 1&amp;2"/>
+      <property name="Sheetfile" value="File: USB_OUT_sch.kicad_sch"/>
+      <sheetpath names="/USB Outputs 1&amp;2/" tstamps="/0dacc84d-2a2f-4e62-9cf5-601ea78b56d7/"/>
+      <tstamps>7d720883-acae-4606-953e-0aa42aac3887</tstamps>
+    </comp>
+    <comp ref="J3">
+      <value>USB3_A</value>
+      <footprint>Connector_USB:USB3_A_Molex_48393-001</footprint>
+      <libsource lib="Connector" part="USB3_A" description="USB 3.0 A connector"/>
+      <property name="Sheetname" value="USB Outputs 1&amp;2"/>
+      <property name="Sheetfile" value="File: USB_OUT_sch.kicad_sch"/>
+      <sheetpath names="/USB Outputs 1&amp;2/" tstamps="/0dacc84d-2a2f-4e62-9cf5-601ea78b56d7/"/>
+      <tstamps>248f3053-3351-4686-a210-fbbb22c1f817</tstamps>
+    </comp>
+    <comp ref="J4">
+      <value>USB3_A</value>
+      <footprint>Connector_USB:USB3_A_Molex_48393-001</footprint>
+      <libsource lib="Connector" part="USB3_A" description="USB 3.0 A connector"/>
+      <property name="Sheetname" value="USB Outputs 1&amp;2"/>
+      <property name="Sheetfile" value="File: USB_OUT_sch.kicad_sch"/>
+      <sheetpath names="/USB Outputs 1&amp;2/" tstamps="/0dacc84d-2a2f-4e62-9cf5-601ea78b56d7/"/>
+      <tstamps>0164d278-7b7c-4b51-8232-d6d9dd4b09e8</tstamps>
+    </comp>
+    <comp ref="L1">
+      <value>2.2u</value>
+      <footprint>Inductor_SMD:L_0402_1005Metric</footprint>
+      <libsource lib="Device" part="L" description="Inductor"/>
+      <property name="Sheetname" value="USB Outputs 1&amp;2"/>
+      <property name="Sheetfile" value="File: USB_OUT_sch.kicad_sch"/>
+      <sheetpath names="/USB Outputs 1&amp;2/" tstamps="/0dacc84d-2a2f-4e62-9cf5-601ea78b56d7/"/>
+      <tstamps>5f175785-3311-4b9f-abc5-b80e966cf942</tstamps>
+    </comp>
+    <comp ref="L2">
+      <value>2.2u</value>
+      <footprint>Inductor_SMD:L_0402_1005Metric</footprint>
+      <libsource lib="Device" part="L" description="Inductor"/>
+      <property name="Sheetname" value="USB Outputs 1&amp;2"/>
+      <property name="Sheetfile" value="File: USB_OUT_sch.kicad_sch"/>
+      <sheetpath names="/USB Outputs 1&amp;2/" tstamps="/0dacc84d-2a2f-4e62-9cf5-601ea78b56d7/"/>
+      <tstamps>90560dfa-e8a4-4eaa-803a-0ae603e6d312</tstamps>
+    </comp>
+    <comp ref="R9">
+      <value>100K</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="USB Outputs 1&amp;2"/>
+      <property name="Sheetfile" value="File: USB_OUT_sch.kicad_sch"/>
+      <sheetpath names="/USB Outputs 1&amp;2/" tstamps="/0dacc84d-2a2f-4e62-9cf5-601ea78b56d7/"/>
+      <tstamps>a9e52a86-318e-453c-99d5-3a74deee1bbe</tstamps>
+    </comp>
+    <comp ref="R10">
+      <value>100K</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="USB Outputs 1&amp;2"/>
+      <property name="Sheetfile" value="File: USB_OUT_sch.kicad_sch"/>
+      <sheetpath names="/USB Outputs 1&amp;2/" tstamps="/0dacc84d-2a2f-4e62-9cf5-601ea78b56d7/"/>
+      <tstamps>43ea784b-d36e-46d2-8952-877a150a6056</tstamps>
+    </comp>
+    <comp ref="R11">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="USB Outputs 1&amp;2"/>
+      <property name="Sheetfile" value="File: USB_OUT_sch.kicad_sch"/>
+      <sheetpath names="/USB Outputs 1&amp;2/" tstamps="/0dacc84d-2a2f-4e62-9cf5-601ea78b56d7/"/>
+      <tstamps>8e1018ff-8747-419d-924f-ca3a141daca9</tstamps>
+    </comp>
+    <comp ref="R12">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="USB Outputs 1&amp;2"/>
+      <property name="Sheetfile" value="File: USB_OUT_sch.kicad_sch"/>
+      <sheetpath names="/USB Outputs 1&amp;2/" tstamps="/0dacc84d-2a2f-4e62-9cf5-601ea78b56d7/"/>
+      <tstamps>9d87db61-dc39-4ea5-b54d-c225b27da9ca</tstamps>
+    </comp>
+    <comp ref="R13">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="USB Outputs 1&amp;2"/>
+      <property name="Sheetfile" value="File: USB_OUT_sch.kicad_sch"/>
+      <sheetpath names="/USB Outputs 1&amp;2/" tstamps="/0dacc84d-2a2f-4e62-9cf5-601ea78b56d7/"/>
+      <tstamps>5cbb5b79-7cd1-44ea-9288-cdd51b17e970</tstamps>
+    </comp>
+    <comp ref="R14">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="USB Outputs 1&amp;2"/>
+      <property name="Sheetfile" value="File: USB_OUT_sch.kicad_sch"/>
+      <sheetpath names="/USB Outputs 1&amp;2/" tstamps="/0dacc84d-2a2f-4e62-9cf5-601ea78b56d7/"/>
+      <tstamps>ee0cc130-3c1a-470b-ad08-34de1d408eee</tstamps>
+    </comp>
+    <comp ref="R15">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="USB Outputs 1&amp;2"/>
+      <property name="Sheetfile" value="File: USB_OUT_sch.kicad_sch"/>
+      <sheetpath names="/USB Outputs 1&amp;2/" tstamps="/0dacc84d-2a2f-4e62-9cf5-601ea78b56d7/"/>
+      <tstamps>cdde124d-7a31-410d-a22d-4cf016ea2c89</tstamps>
+    </comp>
+    <comp ref="R16">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="USB Outputs 1&amp;2"/>
+      <property name="Sheetfile" value="File: USB_OUT_sch.kicad_sch"/>
+      <sheetpath names="/USB Outputs 1&amp;2/" tstamps="/0dacc84d-2a2f-4e62-9cf5-601ea78b56d7/"/>
+      <tstamps>82a7af89-047f-493f-a91b-f0bfb861ef6b</tstamps>
+    </comp>
+    <comp ref="R17">
+      <value>29.8K</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="USB Outputs 1&amp;2"/>
+      <property name="Sheetfile" value="File: USB_OUT_sch.kicad_sch"/>
+      <sheetpath names="/USB Outputs 1&amp;2/" tstamps="/0dacc84d-2a2f-4e62-9cf5-601ea78b56d7/"/>
+      <tstamps>501c4874-7e03-4581-9b4e-903ee30dea0e</tstamps>
+    </comp>
+    <comp ref="R18">
+      <value>29.8K</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="USB Outputs 1&amp;2"/>
+      <property name="Sheetfile" value="File: USB_OUT_sch.kicad_sch"/>
+      <sheetpath names="/USB Outputs 1&amp;2/" tstamps="/0dacc84d-2a2f-4e62-9cf5-601ea78b56d7/"/>
+      <tstamps>2a228fb7-7da9-44a6-b2f3-0d81b302ad9c</tstamps>
+    </comp>
+    <comp ref="R19">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="USB Outputs 1&amp;2"/>
+      <property name="Sheetfile" value="File: USB_OUT_sch.kicad_sch"/>
+      <sheetpath names="/USB Outputs 1&amp;2/" tstamps="/0dacc84d-2a2f-4e62-9cf5-601ea78b56d7/"/>
+      <tstamps>1e031875-9d07-47ec-9a69-e8088dc193d8</tstamps>
+    </comp>
+    <comp ref="R20">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="USB Outputs 1&amp;2"/>
+      <property name="Sheetfile" value="File: USB_OUT_sch.kicad_sch"/>
+      <sheetpath names="/USB Outputs 1&amp;2/" tstamps="/0dacc84d-2a2f-4e62-9cf5-601ea78b56d7/"/>
+      <tstamps>b8ea0c25-afc2-4c05-8f6c-79caeaa8745b</tstamps>
+    </comp>
+    <comp ref="R21">
+      <value>48.7K</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="USB Outputs 1&amp;2"/>
+      <property name="Sheetfile" value="File: USB_OUT_sch.kicad_sch"/>
+      <sheetpath names="/USB Outputs 1&amp;2/" tstamps="/0dacc84d-2a2f-4e62-9cf5-601ea78b56d7/"/>
+      <tstamps>d9b83bdf-9f57-4bea-89e4-295177b3810f</tstamps>
+    </comp>
+    <comp ref="R22">
+      <value>48.7K</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="USB Outputs 1&amp;2"/>
+      <property name="Sheetfile" value="File: USB_OUT_sch.kicad_sch"/>
+      <sheetpath names="/USB Outputs 1&amp;2/" tstamps="/0dacc84d-2a2f-4e62-9cf5-601ea78b56d7/"/>
+      <tstamps>0d8d245d-d1fe-452e-b660-284e06c39776</tstamps>
+    </comp>
+    <comp ref="U4">
+      <value>TPS2546</value>
+      <footprint>TPS2546RTER:TPS2546RTER</footprint>
+      <libsource lib="" part="TPS2546_1" description=""/>
+      <property name="Sheetname" value="USB Outputs 1&amp;2"/>
+      <property name="Sheetfile" value="File: USB_OUT_sch.kicad_sch"/>
+      <sheetpath names="/USB Outputs 1&amp;2/" tstamps="/0dacc84d-2a2f-4e62-9cf5-601ea78b56d7/"/>
+      <tstamps>90d951c3-5310-4374-abec-412b1c912487</tstamps>
+    </comp>
+    <comp ref="U5">
+      <value>TPS2546</value>
+      <footprint>TPS2546RTER:TPS2546RTER</footprint>
+      <libsource lib="TPS2546 USB Load Switch (2" part="TPS2546" description=""/>
+      <property name="Sheetname" value="USB Outputs 1&amp;2"/>
+      <property name="Sheetfile" value="File: USB_OUT_sch.kicad_sch"/>
+      <sheetpath names="/USB Outputs 1&amp;2/" tstamps="/0dacc84d-2a2f-4e62-9cf5-601ea78b56d7/"/>
+      <tstamps>0a646151-69fd-43c7-bca5-5e80e6168f8b</tstamps>
+    </comp>
+    <comp ref="C40">
+      <value>4.7u</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="USB Outputs 3&amp;4"/>
+      <property name="Sheetfile" value="File: USB_OUT_2_sch.kicad_sch"/>
+      <sheetpath names="/USB Outputs 3&amp;4/" tstamps="/939c9811-ae5c-4de5-a354-9ca21a66669f/"/>
+      <tstamps>f1ab02e9-93d9-4d2c-a020-65921c316a3b</tstamps>
+    </comp>
+    <comp ref="C41">
+      <value>4.7u</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="USB Outputs 3&amp;4"/>
+      <property name="Sheetfile" value="File: USB_OUT_2_sch.kicad_sch"/>
+      <sheetpath names="/USB Outputs 3&amp;4/" tstamps="/939c9811-ae5c-4de5-a354-9ca21a66669f/"/>
+      <tstamps>d31aecce-8fd4-4072-a330-9f0099c9e756</tstamps>
+    </comp>
+    <comp ref="C42">
+      <value>.1u</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="USB Outputs 3&amp;4"/>
+      <property name="Sheetfile" value="File: USB_OUT_2_sch.kicad_sch"/>
+      <sheetpath names="/USB Outputs 3&amp;4/" tstamps="/939c9811-ae5c-4de5-a354-9ca21a66669f/"/>
+      <tstamps>7f98dfa6-f88d-4530-ba42-4308157ec037</tstamps>
+    </comp>
+    <comp ref="C43">
+      <value>.1u</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="USB Outputs 3&amp;4"/>
+      <property name="Sheetfile" value="File: USB_OUT_2_sch.kicad_sch"/>
+      <sheetpath names="/USB Outputs 3&amp;4/" tstamps="/939c9811-ae5c-4de5-a354-9ca21a66669f/"/>
+      <tstamps>2e41dfcc-2714-4001-b1a0-5da99c957964</tstamps>
+    </comp>
+    <comp ref="C44">
+      <value>2.2u</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="USB Outputs 3&amp;4"/>
+      <property name="Sheetfile" value="File: USB_OUT_2_sch.kicad_sch"/>
+      <sheetpath names="/USB Outputs 3&amp;4/" tstamps="/939c9811-ae5c-4de5-a354-9ca21a66669f/"/>
+      <tstamps>171a0d88-d763-4ea9-a44f-45da44eee2a0</tstamps>
+    </comp>
+    <comp ref="C45">
+      <value>2.2u</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="USB Outputs 3&amp;4"/>
+      <property name="Sheetfile" value="File: USB_OUT_2_sch.kicad_sch"/>
+      <sheetpath names="/USB Outputs 3&amp;4/" tstamps="/939c9811-ae5c-4de5-a354-9ca21a66669f/"/>
+      <tstamps>92b6dd1a-6c86-4cda-80ae-fa76c1317541</tstamps>
+    </comp>
+    <comp ref="C46">
+      <value>0.1u</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="USB Outputs 3&amp;4"/>
+      <property name="Sheetfile" value="File: USB_OUT_2_sch.kicad_sch"/>
+      <sheetpath names="/USB Outputs 3&amp;4/" tstamps="/939c9811-ae5c-4de5-a354-9ca21a66669f/"/>
+      <tstamps>6d883a9b-ed1b-4acf-9fbb-99a4d80f5c3d</tstamps>
+    </comp>
+    <comp ref="C47">
+      <value>0.1u</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="USB Outputs 3&amp;4"/>
+      <property name="Sheetfile" value="File: USB_OUT_2_sch.kicad_sch"/>
+      <sheetpath names="/USB Outputs 3&amp;4/" tstamps="/939c9811-ae5c-4de5-a354-9ca21a66669f/"/>
+      <tstamps>85dbf5d1-2c3a-41e0-a327-8dfaf43fe549</tstamps>
+    </comp>
+    <comp ref="C48">
+      <value>0.1u</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="USB Outputs 3&amp;4"/>
+      <property name="Sheetfile" value="File: USB_OUT_2_sch.kicad_sch"/>
+      <sheetpath names="/USB Outputs 3&amp;4/" tstamps="/939c9811-ae5c-4de5-a354-9ca21a66669f/"/>
+      <tstamps>83461384-620b-49c1-a798-fd9acf1384c4</tstamps>
+    </comp>
+    <comp ref="C49">
+      <value>0.1u</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="USB Outputs 3&amp;4"/>
+      <property name="Sheetfile" value="File: USB_OUT_2_sch.kicad_sch"/>
+      <sheetpath names="/USB Outputs 3&amp;4/" tstamps="/939c9811-ae5c-4de5-a354-9ca21a66669f/"/>
+      <tstamps>8328d0ee-12ac-41d1-b359-1ece9201dea2</tstamps>
+    </comp>
+    <comp ref="C50">
+      <value>100u</value>
+      <footprint>Capacitor_THT:CP_Radial_D5.0mm_P2.50mm</footprint>
+      <libsource lib="Device" part="C_Polarized_US" description="Polarized capacitor, US symbol"/>
+      <property name="Sheetname" value="USB Outputs 3&amp;4"/>
+      <property name="Sheetfile" value="File: USB_OUT_2_sch.kicad_sch"/>
+      <sheetpath names="/USB Outputs 3&amp;4/" tstamps="/939c9811-ae5c-4de5-a354-9ca21a66669f/"/>
+      <tstamps>f0154439-c1af-46d2-9ba7-4a73de3c3f37</tstamps>
+    </comp>
+    <comp ref="C51">
+      <value>100u</value>
+      <footprint>Capacitor_THT:CP_Radial_D5.0mm_P2.50mm</footprint>
+      <libsource lib="Device" part="C_Polarized_US" description="Polarized capacitor, US symbol"/>
+      <property name="Sheetname" value="USB Outputs 3&amp;4"/>
+      <property name="Sheetfile" value="File: USB_OUT_2_sch.kicad_sch"/>
+      <sheetpath names="/USB Outputs 3&amp;4/" tstamps="/939c9811-ae5c-4de5-a354-9ca21a66669f/"/>
+      <tstamps>b8b6abbf-8b02-4a65-a9a8-929ee0710363</tstamps>
+    </comp>
+    <comp ref="D4">
+      <value>TPD6E05U06RVZR</value>
+      <footprint>TPD SPD:TPD6E05U06RVZR</footprint>
+      <fields>
+        <field name="MANUFACTURER">Texas Instruments</field>
+        <field name="PARTREV">L</field>
+        <field name="STANDARD">IPC-7351B</field>
+      </fields>
+      <libsource lib="" part="TPD6E05U06RVZR_1" description=""/>
+      <property name="PARTREV" value="L"/>
+      <property name="STANDARD" value="IPC-7351B"/>
+      <property name="MANUFACTURER" value="Texas Instruments"/>
+      <property name="Sheetname" value="USB Outputs 3&amp;4"/>
+      <property name="Sheetfile" value="File: USB_OUT_2_sch.kicad_sch"/>
+      <sheetpath names="/USB Outputs 3&amp;4/" tstamps="/939c9811-ae5c-4de5-a354-9ca21a66669f/"/>
+      <tstamps>8e0b43f7-10d5-4da5-81db-2a1cc4e77f66</tstamps>
+    </comp>
+    <comp ref="D5">
+      <value>TPD6E05U06RVZR</value>
+      <footprint>TPD SPD:TPD6E05U06RVZR</footprint>
+      <fields>
+        <field name="MANUFACTURER">Texas Instruments</field>
+        <field name="PARTREV">L</field>
+        <field name="STANDARD">IPC-7351B</field>
+      </fields>
+      <libsource lib="TPD6E05U06RVZR" part="TPD6E05U06RVZR" description=""/>
+      <property name="PARTREV" value="L"/>
+      <property name="STANDARD" value="IPC-7351B"/>
+      <property name="MANUFACTURER" value="Texas Instruments"/>
+      <property name="Sheetname" value="USB Outputs 3&amp;4"/>
+      <property name="Sheetfile" value="File: USB_OUT_2_sch.kicad_sch"/>
+      <sheetpath names="/USB Outputs 3&amp;4/" tstamps="/939c9811-ae5c-4de5-a354-9ca21a66669f/"/>
+      <tstamps>8c076af0-aa7c-4de9-9bff-749da7e7f124</tstamps>
+    </comp>
+    <comp ref="J5">
+      <value>USB3_A</value>
+      <footprint>Connector_USB:USB3_A_Molex_48393-001</footprint>
+      <libsource lib="Connector" part="USB3_A" description="USB 3.0 A connector"/>
+      <property name="Sheetname" value="USB Outputs 3&amp;4"/>
+      <property name="Sheetfile" value="File: USB_OUT_2_sch.kicad_sch"/>
+      <sheetpath names="/USB Outputs 3&amp;4/" tstamps="/939c9811-ae5c-4de5-a354-9ca21a66669f/"/>
+      <tstamps>680c6c90-ce72-4657-ab68-f0b57fbe2a50</tstamps>
+    </comp>
+    <comp ref="J6">
+      <value>USB3_A</value>
+      <footprint>Connector_USB:USB3_A_Molex_48393-001</footprint>
+      <libsource lib="Connector" part="USB3_A" description="USB 3.0 A connector"/>
+      <property name="Sheetname" value="USB Outputs 3&amp;4"/>
+      <property name="Sheetfile" value="File: USB_OUT_2_sch.kicad_sch"/>
+      <sheetpath names="/USB Outputs 3&amp;4/" tstamps="/939c9811-ae5c-4de5-a354-9ca21a66669f/"/>
+      <tstamps>1b1383ad-edc1-4367-a684-2721a75bf9a5</tstamps>
+    </comp>
+    <comp ref="L3">
+      <value>2.2u</value>
+      <footprint>Inductor_SMD:L_0402_1005Metric</footprint>
+      <libsource lib="Device" part="L" description="Inductor"/>
+      <property name="Sheetname" value="USB Outputs 3&amp;4"/>
+      <property name="Sheetfile" value="File: USB_OUT_2_sch.kicad_sch"/>
+      <sheetpath names="/USB Outputs 3&amp;4/" tstamps="/939c9811-ae5c-4de5-a354-9ca21a66669f/"/>
+      <tstamps>67e1101a-252d-4e8f-b00b-94f4ffeef24b</tstamps>
+    </comp>
+    <comp ref="L4">
+      <value>2.2u</value>
+      <footprint>Inductor_SMD:L_0402_1005Metric</footprint>
+      <libsource lib="Device" part="L" description="Inductor"/>
+      <property name="Sheetname" value="USB Outputs 3&amp;4"/>
+      <property name="Sheetfile" value="File: USB_OUT_2_sch.kicad_sch"/>
+      <sheetpath names="/USB Outputs 3&amp;4/" tstamps="/939c9811-ae5c-4de5-a354-9ca21a66669f/"/>
+      <tstamps>be86d031-5d1e-4b2c-8ef3-d4f72ef3b690</tstamps>
+    </comp>
+    <comp ref="R23">
+      <value>100K</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="USB Outputs 3&amp;4"/>
+      <property name="Sheetfile" value="File: USB_OUT_2_sch.kicad_sch"/>
+      <sheetpath names="/USB Outputs 3&amp;4/" tstamps="/939c9811-ae5c-4de5-a354-9ca21a66669f/"/>
+      <tstamps>d8565576-1246-4f79-8105-921fecf1ae32</tstamps>
+    </comp>
+    <comp ref="R24">
+      <value>100K</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="USB Outputs 3&amp;4"/>
+      <property name="Sheetfile" value="File: USB_OUT_2_sch.kicad_sch"/>
+      <sheetpath names="/USB Outputs 3&amp;4/" tstamps="/939c9811-ae5c-4de5-a354-9ca21a66669f/"/>
+      <tstamps>5688b7e0-9585-4d83-91d5-f98e34efac6f</tstamps>
+    </comp>
+    <comp ref="R25">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="USB Outputs 3&amp;4"/>
+      <property name="Sheetfile" value="File: USB_OUT_2_sch.kicad_sch"/>
+      <sheetpath names="/USB Outputs 3&amp;4/" tstamps="/939c9811-ae5c-4de5-a354-9ca21a66669f/"/>
+      <tstamps>6d9b9d68-7b9e-49f3-b063-26b7f909ac61</tstamps>
+    </comp>
+    <comp ref="R26">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="USB Outputs 3&amp;4"/>
+      <property name="Sheetfile" value="File: USB_OUT_2_sch.kicad_sch"/>
+      <sheetpath names="/USB Outputs 3&amp;4/" tstamps="/939c9811-ae5c-4de5-a354-9ca21a66669f/"/>
+      <tstamps>4dd692bc-07d4-443f-8540-0f875dd7c1fa</tstamps>
+    </comp>
+    <comp ref="R27">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="USB Outputs 3&amp;4"/>
+      <property name="Sheetfile" value="File: USB_OUT_2_sch.kicad_sch"/>
+      <sheetpath names="/USB Outputs 3&amp;4/" tstamps="/939c9811-ae5c-4de5-a354-9ca21a66669f/"/>
+      <tstamps>4e8f95d8-c87c-4616-b348-04d1b7244829</tstamps>
+    </comp>
+    <comp ref="R28">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="USB Outputs 3&amp;4"/>
+      <property name="Sheetfile" value="File: USB_OUT_2_sch.kicad_sch"/>
+      <sheetpath names="/USB Outputs 3&amp;4/" tstamps="/939c9811-ae5c-4de5-a354-9ca21a66669f/"/>
+      <tstamps>3625a2a6-f0ae-4830-8f3e-2496b9b71526</tstamps>
+    </comp>
+    <comp ref="R29">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="USB Outputs 3&amp;4"/>
+      <property name="Sheetfile" value="File: USB_OUT_2_sch.kicad_sch"/>
+      <sheetpath names="/USB Outputs 3&amp;4/" tstamps="/939c9811-ae5c-4de5-a354-9ca21a66669f/"/>
+      <tstamps>11ee6462-3fb6-437a-9570-1242ee135fbc</tstamps>
+    </comp>
+    <comp ref="R30">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="USB Outputs 3&amp;4"/>
+      <property name="Sheetfile" value="File: USB_OUT_2_sch.kicad_sch"/>
+      <sheetpath names="/USB Outputs 3&amp;4/" tstamps="/939c9811-ae5c-4de5-a354-9ca21a66669f/"/>
+      <tstamps>a25f7bb4-ce51-4923-b0f5-fb8f45a25d43</tstamps>
+    </comp>
+    <comp ref="R31">
+      <value>29.8K</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="USB Outputs 3&amp;4"/>
+      <property name="Sheetfile" value="File: USB_OUT_2_sch.kicad_sch"/>
+      <sheetpath names="/USB Outputs 3&amp;4/" tstamps="/939c9811-ae5c-4de5-a354-9ca21a66669f/"/>
+      <tstamps>22417b4b-9b1c-4b79-912a-f442a7ea0efe</tstamps>
+    </comp>
+    <comp ref="R32">
+      <value>29.8K</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="USB Outputs 3&amp;4"/>
+      <property name="Sheetfile" value="File: USB_OUT_2_sch.kicad_sch"/>
+      <sheetpath names="/USB Outputs 3&amp;4/" tstamps="/939c9811-ae5c-4de5-a354-9ca21a66669f/"/>
+      <tstamps>d0754b6f-2e22-4d0e-92c5-fe58e7b51c86</tstamps>
+    </comp>
+    <comp ref="R33">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="USB Outputs 3&amp;4"/>
+      <property name="Sheetfile" value="File: USB_OUT_2_sch.kicad_sch"/>
+      <sheetpath names="/USB Outputs 3&amp;4/" tstamps="/939c9811-ae5c-4de5-a354-9ca21a66669f/"/>
+      <tstamps>53c00de6-e055-4812-8106-b9db00edd0b0</tstamps>
+    </comp>
+    <comp ref="R34">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="USB Outputs 3&amp;4"/>
+      <property name="Sheetfile" value="File: USB_OUT_2_sch.kicad_sch"/>
+      <sheetpath names="/USB Outputs 3&amp;4/" tstamps="/939c9811-ae5c-4de5-a354-9ca21a66669f/"/>
+      <tstamps>bd4e696f-4306-46f2-b5dd-2ceddf36e23c</tstamps>
+    </comp>
+    <comp ref="R35">
+      <value>48.7K</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="USB Outputs 3&amp;4"/>
+      <property name="Sheetfile" value="File: USB_OUT_2_sch.kicad_sch"/>
+      <sheetpath names="/USB Outputs 3&amp;4/" tstamps="/939c9811-ae5c-4de5-a354-9ca21a66669f/"/>
+      <tstamps>e70fbd98-ba93-4e0a-af3f-928c16396a5b</tstamps>
+    </comp>
+    <comp ref="R36">
+      <value>48.7K</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="USB Outputs 3&amp;4"/>
+      <property name="Sheetfile" value="File: USB_OUT_2_sch.kicad_sch"/>
+      <sheetpath names="/USB Outputs 3&amp;4/" tstamps="/939c9811-ae5c-4de5-a354-9ca21a66669f/"/>
+      <tstamps>c7628cf0-a282-4e18-bfcf-2a92c33e484c</tstamps>
+    </comp>
+    <comp ref="U6">
+      <value>TPS2546</value>
+      <footprint>TPS2546RTER:TPS2546RTER</footprint>
+      <libsource lib="" part="TPS2546_1" description=""/>
+      <property name="Sheetname" value="USB Outputs 3&amp;4"/>
+      <property name="Sheetfile" value="File: USB_OUT_2_sch.kicad_sch"/>
+      <sheetpath names="/USB Outputs 3&amp;4/" tstamps="/939c9811-ae5c-4de5-a354-9ca21a66669f/"/>
+      <tstamps>4f25c362-5d2c-49e5-8db8-104f35dcbeb5</tstamps>
+    </comp>
+    <comp ref="U7">
+      <value>TPS2546</value>
+      <footprint>TPS2546RTER:TPS2546RTER</footprint>
+      <libsource lib="TPS2546 USB Load Switch (2" part="TPS2546" description=""/>
+      <property name="Sheetname" value="USB Outputs 3&amp;4"/>
+      <property name="Sheetfile" value="File: USB_OUT_2_sch.kicad_sch"/>
+      <sheetpath names="/USB Outputs 3&amp;4/" tstamps="/939c9811-ae5c-4de5-a354-9ca21a66669f/"/>
+      <tstamps>4dd16107-055e-4bcf-814a-34741f47e881</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="" part="TPD6E05U06RVZR_1">
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">TPD6E05U06RVZR_1</field>
+        <field name="Footprint">SON50P135X350X55-14N</field>
+        <field name="PARTREV">L</field>
+        <field name="STANDARD">IPC-7351B</field>
+        <field name="MANUFACTURER">Texas Instruments</field>
+      </fields>
+      <pins>
+        <pin num="1" name="NC" type="bidirectional"/>
+        <pin num="2" name="NC" type="bidirectional"/>
+        <pin num="3" name="NC" type="bidirectional"/>
+        <pin num="4" name="NC" type="bidirectional"/>
+        <pin num="5" name="GND" type="power_in"/>
+        <pin num="6" name="NC" type="bidirectional"/>
+        <pin num="7" name="NC" type="bidirectional"/>
+        <pin num="8" name="D3N" type="bidirectional"/>
+        <pin num="9" name="D3P" type="bidirectional"/>
+        <pin num="10" name="GND" type="power_in"/>
+        <pin num="11" name="D2N" type="bidirectional"/>
+        <pin num="12" name="D2P" type="bidirectional"/>
+        <pin num="13" name="D1N" type="bidirectional"/>
+        <pin num="14" name="D1P" type="bidirectional"/>
+      </pins>
+    </libpart>
+    <libpart lib="" part="TPS2546_1">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TPS2546_1</field>
+      </fields>
+      <pins>
+        <pin num="1" name="IN" type="power_in"/>
+        <pin num="2" name="DM_OUT" type="bidirectional"/>
+        <pin num="3" name="DP_OUT" type="bidirectional"/>
+        <pin num="4" name="ILM_SEL" type="input"/>
+        <pin num="5" name="EN" type="input"/>
+        <pin num="6" name="CTL1" type="input"/>
+        <pin num="7" name="CTL2" type="input"/>
+        <pin num="8" name="CTL3" type="input"/>
+        <pin num="9" name="~{STATUS}" type="output"/>
+        <pin num="10" name="DP_IN" type="bidirectional"/>
+        <pin num="11" name="DM_IN" type="bidirectional"/>
+        <pin num="12" name="OUT" type="power_out"/>
+        <pin num="13" name="~{FAULT}" type="output"/>
+        <pin num="14" name="GND" type="power_in"/>
+        <pin num="15" name="ILM_LO" type="input"/>
+        <pin num="16" name="ILM_HI" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Barrel_Jack_Switch">
+      <description>DC Barrel Jack with an internal switch</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>BarrelJack*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Barrel_Jack_Switch</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+        <pin num="3" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="USB3_A">
+      <description>USB 3.0 A connector</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">USB3_A</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VBUS" type="power_in"/>
+        <pin num="2" name="D-" type="bidirectional"/>
+        <pin num="3" name="D+" type="bidirectional"/>
+        <pin num="4" name="GND" type="power_in"/>
+        <pin num="5" name="SSRX-" type="output"/>
+        <pin num="6" name="SSRX+" type="output"/>
+        <pin num="7" name="DRAIN" type="passive"/>
+        <pin num="8" name="SSTX-" type="input"/>
+        <pin num="9" name="SSTX+" type="input"/>
+        <pin num="10" name="SHIELD" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C_Polarized_US">
+      <description>Polarized capacitor, US symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Polarized_US</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Crystal_GND24">
+      <description>Four pin crystal, GND on pins 2 and 4</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Crystal*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Y</field>
+        <field name="Value">Crystal_GND24</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="L">
+      <description>Inductor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Choke_*</fp>
+        <fp>*Coil*</fp>
+        <fp>Inductor_*</fp>
+        <fp>L_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">L</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Interface_USB" part="TUSB8041">
+      <description>four port USB 3.0 Hub</description>
+      <docs>http://www.ti.com/lit/ds/symlink/tusb8041.pdf</docs>
+      <footprints>
+        <fp>QFN*9x9mm*P0.5mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TUSB8041</field>
+        <field name="Footprint">Package_DFN_QFN:QFN-64-1EP_9x9mm_P0.5mm_EP6x6mm_ThermalVias</field>
+        <field name="Datasheet">http://www.ti.com/lit/ds/symlink/tusb8041.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="USB_DP_DN1" type="bidirectional"/>
+        <pin num="2" name="USB_DM_DN1" type="bidirectional"/>
+        <pin num="3" name="USB_SSTXP_DN1" type="output"/>
+        <pin num="4" name="USB_SSTXM_DN1" type="output"/>
+        <pin num="5" name="VDD" type="power_in"/>
+        <pin num="6" name="USB_SSRXP_DN1" type="input"/>
+        <pin num="7" name="USB_SSRXM_DN1" type="input"/>
+        <pin num="8" name="VDD" type="power_in"/>
+        <pin num="9" name="USB_DP_DN2" type="bidirectional"/>
+        <pin num="10" name="USB_DM_DN2" type="bidirectional"/>
+        <pin num="11" name="USB_SSTXP_DN2" type="output"/>
+        <pin num="12" name="USB_SSTXM_DN2" type="output"/>
+        <pin num="13" name="VDD" type="power_in"/>
+        <pin num="14" name="USB_SSRXP_DN2" type="input"/>
+        <pin num="15" name="USB_SSRXM_DN2" type="input"/>
+        <pin num="16" name="VDD33" type="power_in"/>
+        <pin num="17" name="USB_DP_DN3" type="bidirectional"/>
+        <pin num="18" name="USB_DM_DN3" type="bidirectional"/>
+        <pin num="19" name="USB_SSTXP_DN3" type="output"/>
+        <pin num="20" name="USB_SSTXM_DN3" type="output"/>
+        <pin num="21" name="VDD" type="power_in"/>
+        <pin num="22" name="USB_SSRXP_DN3" type="input"/>
+        <pin num="23" name="USB_SSRXM_DN3" type="input"/>
+        <pin num="24" name="USB_DP_DN4" type="bidirectional"/>
+        <pin num="25" name="USB_DM_DN4" type="bidirectional"/>
+        <pin num="26" name="USB_SSTXP_DN4" type="output"/>
+        <pin num="27" name="USB_SSTXM_DN4" type="output"/>
+        <pin num="28" name="VDD" type="power_in"/>
+        <pin num="29" name="USB_SSRXP_DN4" type="input"/>
+        <pin num="30" name="USB_SSRXM_DN4" type="input"/>
+        <pin num="31" name="VDD" type="power_in"/>
+        <pin num="32" name="PWRCTL4/BATEN4" type="bidirectional"/>
+        <pin num="33" name="PWRCTL3/BATEN3" type="bidirectional"/>
+        <pin num="34" name="VDD33" type="power_in"/>
+        <pin num="35" name="PWRCTL2/BATEN2" type="bidirectional"/>
+        <pin num="36" name="PWRCTL1/BATEN1" type="bidirectional"/>
+        <pin num="37" name="SDA/SMBDAT" type="bidirectional"/>
+        <pin num="38" name="SCL/SMBCLK" type="bidirectional"/>
+        <pin num="39" name="SMBUSz/SS_SUSPEND" type="bidirectional"/>
+        <pin num="40" name="FULLPWRMGMTz/SMBA1/SS_UP" type="bidirectional"/>
+        <pin num="41" name="PWRCTL_POL" type="bidirectional"/>
+        <pin num="42" name="GANGED/SMBA2/HS_UP" type="bidirectional"/>
+        <pin num="43" name="OVERCUR4z" type="input"/>
+        <pin num="44" name="OVERCUR3z" type="input"/>
+        <pin num="45" name="AUTOENz/HS_SUSPEND" type="bidirectional"/>
+        <pin num="46" name="OVERCUR1z" type="input"/>
+        <pin num="47" name="OVERCUR2z" type="input"/>
+        <pin num="48" name="USB_VBUS" type="input"/>
+        <pin num="49" name="TEST" type="input"/>
+        <pin num="50" name="GRSTz" type="input"/>
+        <pin num="51" name="VDD" type="power_in"/>
+        <pin num="52" name="VDD33" type="power_in"/>
+        <pin num="53" name="USB_DP_UP" type="bidirectional"/>
+        <pin num="54" name="USB_DM_UP" type="bidirectional"/>
+        <pin num="55" name="USB_SSTXP_UP" type="output"/>
+        <pin num="56" name="USB_SSTXM_UP" type="output"/>
+        <pin num="57" name="VDD" type="power_in"/>
+        <pin num="58" name="USB_SSRXP_UP" type="input"/>
+        <pin num="59" name="USB_SSRXM_UP" type="input"/>
+        <pin num="60" name="NC" type="no_connect"/>
+        <pin num="61" name="XO" type="output"/>
+        <pin num="62" name="XI" type="input"/>
+        <pin num="63" name="VDD33" type="power_in"/>
+        <pin num="64" name="USB_R1" type="input"/>
+        <pin num="65" name="VSS" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Mechanical" part="MountingHole">
+      <description>Mounting Hole without connection</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>MountingHole*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole</field>
+        <field name="Datasheet">~</field>
+      </fields>
+    </libpart>
+    <libpart lib="Regulator_Linear" part="SPX3819M5-L-1-2">
+      <description>500mA Low drop-out regulator, Fixed Output 1.2V, SOT-23-5</description>
+      <docs>https://www.exar.com/content/document.ashx?id=22106&amp;languageid=1033&amp;type=Datasheet&amp;partnumber=SPX3819&amp;filename=SPX3819.pdf&amp;part=SPX3819</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">SPX3819M5-L-1-2</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23-5</field>
+        <field name="Datasheet">https://www.exar.com/content/document.ashx?id=22106&amp;languageid=1033&amp;type=Datasheet&amp;partnumber=SPX3819&amp;filename=SPX3819.pdf&amp;part=SPX3819</field>
+      </fields>
+      <pins>
+        <pin num="1" name="IN" type="power_in"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="EN" type="input"/>
+        <pin num="4" name="BP" type="input"/>
+        <pin num="5" name="OUT" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="Regulator_Linear" part="SPX3819M5-L-3-3">
+      <description>500mA Low drop-out regulator, Fixed Output 3.3V, SOT-23-5</description>
+      <docs>https://www.exar.com/content/document.ashx?id=22106&amp;languageid=1033&amp;type=Datasheet&amp;partnumber=SPX3819&amp;filename=SPX3819.pdf&amp;part=SPX3819</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">SPX3819M5-L-3-3</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23-5</field>
+        <field name="Datasheet">https://www.exar.com/content/document.ashx?id=22106&amp;languageid=1033&amp;type=Datasheet&amp;partnumber=SPX3819&amp;filename=SPX3819.pdf&amp;part=SPX3819</field>
+      </fields>
+      <pins>
+        <pin num="1" name="IN" type="power_in"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="EN" type="input"/>
+        <pin num="4" name="BP" type="input"/>
+        <pin num="5" name="OUT" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="TPD6E05U06RVZR" part="TPD6E05U06RVZR">
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">TPD6E05U06RVZR</field>
+        <field name="Footprint">SON50P135X350X55-14N</field>
+        <field name="PARTREV">L</field>
+        <field name="STANDARD">IPC-7351B</field>
+        <field name="MANUFACTURER">Texas Instruments</field>
+      </fields>
+      <pins>
+        <pin num="1" name="NC" type="bidirectional"/>
+        <pin num="2" name="NC" type="bidirectional"/>
+        <pin num="3" name="NC" type="bidirectional"/>
+        <pin num="4" name="NC" type="bidirectional"/>
+        <pin num="5" name="GND" type="power_in"/>
+        <pin num="6" name="NC" type="bidirectional"/>
+        <pin num="7" name="NC" type="bidirectional"/>
+        <pin num="8" name="D3N" type="bidirectional"/>
+        <pin num="9" name="D3P" type="bidirectional"/>
+        <pin num="10" name="GND" type="power_in"/>
+        <pin num="11" name="D2N" type="bidirectional"/>
+        <pin num="12" name="D2P" type="bidirectional"/>
+        <pin num="13" name="D1N" type="bidirectional"/>
+        <pin num="14" name="D1P" type="bidirectional"/>
+      </pins>
+    </libpart>
+    <libpart lib="TPS2546 USB Load Switch (2" part="TPS2546">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TPS2546</field>
+      </fields>
+      <pins>
+        <pin num="1" name="IN" type="power_in"/>
+        <pin num="2" name="DM_OUT" type="bidirectional"/>
+        <pin num="3" name="DP_OUT" type="bidirectional"/>
+        <pin num="4" name="ILM_SEL" type="input"/>
+        <pin num="5" name="EN" type="input"/>
+        <pin num="6" name="CTL1" type="input"/>
+        <pin num="7" name="CTL2" type="input"/>
+        <pin num="8" name="CTL3" type="input"/>
+        <pin num="9" name="~{STATUS}" type="output"/>
+        <pin num="10" name="DP_IN" type="bidirectional"/>
+        <pin num="11" name="DM_IN" type="bidirectional"/>
+        <pin num="12" name="OUT" type="power_out"/>
+        <pin num="13" name="~{FAULT}" type="output"/>
+        <pin num="14" name="GND" type="power_in"/>
+        <pin num="15" name="ILM_LO" type="input"/>
+        <pin num="16" name="ILM_HI" type="input"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Connector.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Device.kicad_sym</uri>
+    </library>
+    <library logical="Interface_USB">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Interface_USB.kicad_sym</uri>
+    </library>
+    <library logical="Mechanical">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Mechanical.kicad_sym</uri>
+    </library>
+    <library logical="Regulator_Linear">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Regulator_Linear.kicad_sym</uri>
+    </library>
+    <library logical="TPD6E05U06RVZR">
+      <uri>C:/Users/ethan/Downloads/TPD6E05U06RVZR/TPD6E05U06RVZR.kicad_sym</uri>
+    </library>
+    <library logical="TPS2546 USB Load Switch (2">
+      <uri>C:\Users\ethan\OneDrive\Documents\KiCad Projects\Hybrid USB Hub (USB3.0)/TPS2546 USB Load Switch (2.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+1V2">
+      <node ref="C19" pin="1" pintype="passive"/>
+      <node ref="C20" pin="1" pintype="passive"/>
+      <node ref="C21" pin="1" pintype="passive"/>
+      <node ref="C22" pin="1" pintype="passive"/>
+      <node ref="C23" pin="1" pintype="passive"/>
+      <node ref="C24" pin="1" pintype="passive"/>
+      <node ref="C25" pin="1" pintype="passive"/>
+      <node ref="C26" pin="1" pintype="passive"/>
+      <node ref="C27" pin="1" pintype="passive"/>
+      <node ref="C8" pin="1" pintype="passive"/>
+      <node ref="U1" pin="13" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U1" pin="21" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U1" pin="28" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U1" pin="31" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U1" pin="5" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U1" pin="51" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U1" pin="57" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U1" pin="8" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U3" pin="5" pinfunction="OUT" pintype="power_out"/>
+    </net>
+    <net code="2" name="+3.3V">
+      <node ref="C11" pin="1" pintype="passive"/>
+      <node ref="C12" pin="1" pintype="passive"/>
+      <node ref="C13" pin="1" pintype="passive"/>
+      <node ref="C14" pin="1" pintype="passive"/>
+      <node ref="C15" pin="1" pintype="passive"/>
+      <node ref="C16" pin="1" pintype="passive"/>
+      <node ref="C17" pin="1" pintype="passive"/>
+      <node ref="R19" pin="1" pintype="passive"/>
+      <node ref="R20" pin="1" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+      <node ref="R33" pin="1" pintype="passive"/>
+      <node ref="R34" pin="1" pintype="passive"/>
+      <node ref="U1" pin="16" pinfunction="VDD33" pintype="power_in"/>
+      <node ref="U1" pin="34" pinfunction="VDD33" pintype="power_in"/>
+      <node ref="U1" pin="52" pinfunction="VDD33" pintype="power_in"/>
+      <node ref="U1" pin="63" pinfunction="VDD33" pintype="power_in"/>
+      <node ref="U2" pin="5" pinfunction="OUT" pintype="power_out"/>
+      <node ref="U3" pin="1" pinfunction="IN" pintype="power_in"/>
+      <node ref="U3" pin="3" pinfunction="EN" pintype="input"/>
+    </net>
+    <net code="3" name="+5V">
+      <node ref="C28" pin="1" pintype="passive"/>
+      <node ref="C29" pin="1" pintype="passive"/>
+      <node ref="C30" pin="1" pintype="passive"/>
+      <node ref="C31" pin="1" pintype="passive"/>
+      <node ref="C40" pin="1" pintype="passive"/>
+      <node ref="C41" pin="1" pintype="passive"/>
+      <node ref="C42" pin="1" pintype="passive"/>
+      <node ref="C43" pin="1" pintype="passive"/>
+      <node ref="C9" pin="1" pintype="passive"/>
+      <node ref="J2" pin="1" pintype="passive"/>
+      <node ref="R10" pin="1" pintype="passive"/>
+      <node ref="R11" pin="2" pintype="passive"/>
+      <node ref="R12" pin="2" pintype="passive"/>
+      <node ref="R13" pin="2" pintype="passive"/>
+      <node ref="R14" pin="2" pintype="passive"/>
+      <node ref="R15" pin="2" pintype="passive"/>
+      <node ref="R16" pin="2" pintype="passive"/>
+      <node ref="R23" pin="1" pintype="passive"/>
+      <node ref="R24" pin="1" pintype="passive"/>
+      <node ref="R25" pin="2" pintype="passive"/>
+      <node ref="R26" pin="2" pintype="passive"/>
+      <node ref="R27" pin="2" pintype="passive"/>
+      <node ref="R28" pin="2" pintype="passive"/>
+      <node ref="R29" pin="2" pintype="passive"/>
+      <node ref="R30" pin="2" pintype="passive"/>
+      <node ref="R9" pin="1" pintype="passive"/>
+      <node ref="U2" pin="1" pinfunction="IN" pintype="power_in"/>
+      <node ref="U4" pin="1" pinfunction="IN" pintype="power_in"/>
+      <node ref="U5" pin="1" pinfunction="IN" pintype="power_in"/>
+      <node ref="U6" pin="1" pinfunction="IN" pintype="power_in"/>
+      <node ref="U7" pin="1" pinfunction="IN" pintype="power_in"/>
+    </net>
+    <net code="4" name="/AUTOENz">
+      <node ref="R6" pin="1" pintype="passive"/>
+      <node ref="U1" pin="45" pinfunction="AUTOENz/HS_SUSPEND" pintype="bidirectional"/>
+    </net>
+    <net code="5" name="/CLK_I">
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="U1" pin="62" pinfunction="XI" pintype="input"/>
+      <node ref="Y1" pin="3" pinfunction="3" pintype="passive"/>
+    </net>
+    <net code="6" name="/CLK_O">
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="U1" pin="61" pinfunction="XO" pintype="output"/>
+      <node ref="Y1" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="7" name="/GANGED">
+      <node ref="R4" pin="1" pintype="passive"/>
+      <node ref="U1" pin="42" pinfunction="GANGED/SMBA2/HS_UP" pintype="bidirectional"/>
+    </net>
+    <net code="8" name="/GRSTz">
+      <node ref="C5" pin="1" pintype="passive"/>
+      <node ref="U1" pin="50" pinfunction="GRSTz" pintype="input"/>
+    </net>
+    <net code="9" name="/HOST_VBUS_DET">
+      <node ref="R7" pin="1" pintype="passive"/>
+      <node ref="R8" pin="1" pintype="passive"/>
+      <node ref="U1" pin="48" pinfunction="USB_VBUS" pintype="input"/>
+    </net>
+    <net code="10" name="/OVERCUR1z">
+      <node ref="R19" pin="2" pintype="passive"/>
+      <node ref="U1" pin="46" pinfunction="OVERCUR1z" pintype="input"/>
+      <node ref="U4" pin="13" pinfunction="~{FAULT}" pintype="output"/>
+    </net>
+    <net code="11" name="/OVERCUR2z">
+      <node ref="R20" pin="2" pintype="passive"/>
+      <node ref="U1" pin="47" pinfunction="OVERCUR2z" pintype="input"/>
+      <node ref="U5" pin="13" pinfunction="~{FAULT}" pintype="output"/>
+    </net>
+    <net code="12" name="/OVERCUR3z">
+      <node ref="R33" pin="2" pintype="passive"/>
+      <node ref="U1" pin="44" pinfunction="OVERCUR3z" pintype="input"/>
+      <node ref="U6" pin="13" pinfunction="~{FAULT}" pintype="output"/>
+    </net>
+    <net code="13" name="/OVERCUR4z">
+      <node ref="R34" pin="2" pintype="passive"/>
+      <node ref="U1" pin="43" pinfunction="OVERCUR4z" pintype="input"/>
+      <node ref="U7" pin="13" pinfunction="~{FAULT}" pintype="output"/>
+    </net>
+    <net code="14" name="/PWRCTL1">
+      <node ref="U1" pin="36" pinfunction="PWRCTL1/BATEN1" pintype="bidirectional"/>
+      <node ref="U4" pin="5" pinfunction="EN" pintype="input"/>
+    </net>
+    <net code="15" name="/PWRCTL2">
+      <node ref="U1" pin="35" pinfunction="PWRCTL2/BATEN2" pintype="bidirectional"/>
+      <node ref="U5" pin="5" pinfunction="EN" pintype="input"/>
+    </net>
+    <net code="16" name="/PWRCTL3">
+      <node ref="U1" pin="33" pinfunction="PWRCTL3/BATEN3" pintype="bidirectional"/>
+      <node ref="U6" pin="5" pinfunction="EN" pintype="input"/>
+    </net>
+    <net code="17" name="/PWRCTL4">
+      <node ref="U1" pin="32" pinfunction="PWRCTL4/BATEN4" pintype="bidirectional"/>
+      <node ref="U7" pin="5" pinfunction="EN" pintype="input"/>
+    </net>
+    <net code="18" name="/PWRCTL_POL">
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="U1" pin="41" pinfunction="PWRCTL_POL" pintype="bidirectional"/>
+    </net>
+    <net code="19" name="/PWRMGMTz">
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="U1" pin="40" pinfunction="FULLPWRMGMTz/SMBA1/SS_UP" pintype="bidirectional"/>
+    </net>
+    <net code="20" name="/Power/VBUS_HOST">
+      <node ref="C6" pin="1" pintype="passive"/>
+      <node ref="J1" pin="1" pinfunction="VBUS" pintype="power_in"/>
+      <node ref="U2" pin="3" pinfunction="EN" pintype="input"/>
+    </net>
+    <net code="21" name="/USB Outputs 1&amp;2/CTL1_1">
+      <node ref="R11" pin="1" pintype="passive"/>
+      <node ref="U4" pin="6" pinfunction="CTL1" pintype="input"/>
+    </net>
+    <net code="22" name="/USB Outputs 1&amp;2/CTL1_2">
+      <node ref="R12" pin="1" pintype="passive"/>
+      <node ref="U5" pin="6" pinfunction="CTL1" pintype="input"/>
+    </net>
+    <net code="23" name="/USB Outputs 1&amp;2/CTL2_1">
+      <node ref="R13" pin="1" pintype="passive"/>
+      <node ref="U4" pin="7" pinfunction="CTL2" pintype="input"/>
+    </net>
+    <net code="24" name="/USB Outputs 1&amp;2/CTL2_2">
+      <node ref="R14" pin="1" pintype="passive"/>
+      <node ref="U5" pin="7" pinfunction="CTL2" pintype="input"/>
+    </net>
+    <net code="25" name="/USB Outputs 1&amp;2/CTL3_1">
+      <node ref="R15" pin="1" pintype="passive"/>
+      <node ref="U4" pin="8" pinfunction="CTL3" pintype="input"/>
+    </net>
+    <net code="26" name="/USB Outputs 1&amp;2/CTL3_2">
+      <node ref="R16" pin="1" pintype="passive"/>
+      <node ref="U5" pin="8" pinfunction="CTL3" pintype="input"/>
+    </net>
+    <net code="27" name="/USB Outputs 1&amp;2/ILM_HI_1">
+      <node ref="R17" pin="1" pintype="passive"/>
+      <node ref="U4" pin="16" pinfunction="ILM_HI" pintype="input"/>
+    </net>
+    <net code="28" name="/USB Outputs 1&amp;2/ILM_HI_2">
+      <node ref="R18" pin="1" pintype="passive"/>
+      <node ref="U5" pin="16" pinfunction="ILM_HI" pintype="input"/>
+    </net>
+    <net code="29" name="/USB Outputs 1&amp;2/ILM_LO_1">
+      <node ref="R21" pin="1" pintype="passive"/>
+      <node ref="U4" pin="15" pinfunction="ILM_LO" pintype="input"/>
+    </net>
+    <net code="30" name="/USB Outputs 1&amp;2/ILM_LO_2">
+      <node ref="R22" pin="1" pintype="passive"/>
+      <node ref="U5" pin="15" pinfunction="ILM_LO" pintype="input"/>
+    </net>
+    <net code="31" name="/USB Outputs 1&amp;2/PORT1_CLAMP">
+      <node ref="R10" pin="2" pintype="passive"/>
+      <node ref="U4" pin="4" pinfunction="ILM_SEL" pintype="input"/>
+      <node ref="U5" pin="9" pinfunction="~{STATUS}" pintype="output"/>
+    </net>
+    <net code="32" name="/USB Outputs 1&amp;2/PORT2_CLAMP">
+      <node ref="R9" pin="2" pintype="passive"/>
+      <node ref="U4" pin="9" pinfunction="~{STATUS}" pintype="output"/>
+      <node ref="U5" pin="4" pinfunction="ILM_SEL" pintype="input"/>
+    </net>
+    <net code="33" name="/USB Outputs 1&amp;2/USB_OUT1_PC_SSTX+">
+      <node ref="C36" pin="2" pintype="passive"/>
+      <node ref="D3" pin="12" pinfunction="D2P" pintype="bidirectional"/>
+      <node ref="D3" pin="3" pinfunction="NC" pintype="bidirectional"/>
+      <node ref="J4" pin="9" pinfunction="SSTX+" pintype="input"/>
+    </net>
+    <net code="34" name="/USB Outputs 1&amp;2/USB_OUT1_PC_SSTX-">
+      <node ref="C37" pin="2" pintype="passive"/>
+      <node ref="D3" pin="11" pinfunction="D2N" pintype="bidirectional"/>
+      <node ref="D3" pin="4" pinfunction="NC" pintype="bidirectional"/>
+      <node ref="J4" pin="8" pinfunction="SSTX-" pintype="input"/>
+    </net>
+    <net code="35" name="/USB Outputs 1&amp;2/USB_OUT1_PORT_D+">
+      <node ref="D3" pin="1" pinfunction="NC" pintype="bidirectional"/>
+      <node ref="D3" pin="14" pinfunction="D1P" pintype="bidirectional"/>
+      <node ref="J4" pin="3" pinfunction="D+" pintype="bidirectional"/>
+      <node ref="U4" pin="3" pinfunction="DP_OUT" pintype="bidirectional"/>
+    </net>
+    <net code="36" name="/USB Outputs 1&amp;2/USB_OUT1_PORT_D-">
+      <node ref="D3" pin="13" pinfunction="D1N" pintype="bidirectional"/>
+      <node ref="D3" pin="2" pinfunction="NC" pintype="bidirectional"/>
+      <node ref="J4" pin="2" pinfunction="D-" pintype="bidirectional"/>
+      <node ref="U4" pin="2" pinfunction="DM_OUT" pintype="bidirectional"/>
+    </net>
+    <net code="37" name="/USB Outputs 1&amp;2/USB_OUT2_PC_SSTX+">
+      <node ref="C34" pin="2" pintype="passive"/>
+      <node ref="D2" pin="12" pinfunction="D2P" pintype="bidirectional"/>
+      <node ref="D2" pin="3" pinfunction="NC" pintype="bidirectional"/>
+      <node ref="J3" pin="9" pinfunction="SSTX+" pintype="input"/>
+    </net>
+    <net code="38" name="/USB Outputs 1&amp;2/USB_OUT2_PC_SSTX-">
+      <node ref="C35" pin="2" pintype="passive"/>
+      <node ref="D2" pin="11" pinfunction="D2N" pintype="bidirectional"/>
+      <node ref="D2" pin="4" pinfunction="NC" pintype="bidirectional"/>
+      <node ref="J3" pin="8" pinfunction="SSTX-" pintype="input"/>
+    </net>
+    <net code="39" name="/USB Outputs 1&amp;2/USB_OUT2_PORT_D+">
+      <node ref="D2" pin="1" pinfunction="NC" pintype="bidirectional"/>
+      <node ref="D2" pin="14" pinfunction="D1P" pintype="bidirectional"/>
+      <node ref="J3" pin="3" pinfunction="D+" pintype="bidirectional"/>
+      <node ref="U5" pin="3" pinfunction="DP_OUT" pintype="bidirectional"/>
+    </net>
+    <net code="40" name="/USB Outputs 1&amp;2/USB_OUT2_PORT_D-">
+      <node ref="D2" pin="13" pinfunction="D1N" pintype="bidirectional"/>
+      <node ref="D2" pin="2" pinfunction="NC" pintype="bidirectional"/>
+      <node ref="J3" pin="2" pinfunction="D-" pintype="bidirectional"/>
+      <node ref="U5" pin="2" pinfunction="DM_OUT" pintype="bidirectional"/>
+    </net>
+    <net code="41" name="/USB Outputs 1&amp;2/VBUS_OUT1">
+      <node ref="C39" pin="1" pintype="passive"/>
+      <node ref="J4" pin="1" pinfunction="VBUS" pintype="power_in"/>
+      <node ref="L2" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="42" name="/USB Outputs 1&amp;2/VBUS_OUT1_PRE_PI">
+      <node ref="C33" pin="1" pintype="passive"/>
+      <node ref="L2" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U4" pin="12" pinfunction="OUT" pintype="power_out"/>
+    </net>
+    <net code="43" name="/USB Outputs 1&amp;2/VBUS_OUT2">
+      <node ref="C38" pin="1" pintype="passive"/>
+      <node ref="J3" pin="1" pinfunction="VBUS" pintype="power_in"/>
+      <node ref="L1" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="44" name="/USB Outputs 1&amp;2/VBUS_OUT2_PRE_PI">
+      <node ref="C32" pin="1" pintype="passive"/>
+      <node ref="L1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U5" pin="12" pinfunction="OUT" pintype="power_out"/>
+    </net>
+    <net code="45" name="/USB Outputs 3&amp;4/CTL1_3">
+      <node ref="R25" pin="1" pintype="passive"/>
+      <node ref="U6" pin="6" pinfunction="CTL1" pintype="input"/>
+    </net>
+    <net code="46" name="/USB Outputs 3&amp;4/CTL1_4">
+      <node ref="R26" pin="1" pintype="passive"/>
+      <node ref="U7" pin="6" pinfunction="CTL1" pintype="input"/>
+    </net>
+    <net code="47" name="/USB Outputs 3&amp;4/CTL2_3">
+      <node ref="R27" pin="1" pintype="passive"/>
+      <node ref="U6" pin="7" pinfunction="CTL2" pintype="input"/>
+    </net>
+    <net code="48" name="/USB Outputs 3&amp;4/CTL2_4">
+      <node ref="R28" pin="1" pintype="passive"/>
+      <node ref="U7" pin="7" pinfunction="CTL2" pintype="input"/>
+    </net>
+    <net code="49" name="/USB Outputs 3&amp;4/CTL3_3">
+      <node ref="R29" pin="1" pintype="passive"/>
+      <node ref="U6" pin="8" pinfunction="CTL3" pintype="input"/>
+    </net>
+    <net code="50" name="/USB Outputs 3&amp;4/CTL3_4">
+      <node ref="R30" pin="1" pintype="passive"/>
+      <node ref="U7" pin="8" pinfunction="CTL3" pintype="input"/>
+    </net>
+    <net code="51" name="/USB Outputs 3&amp;4/ILM_HI4">
+      <node ref="R32" pin="1" pintype="passive"/>
+      <node ref="U7" pin="16" pinfunction="ILM_HI" pintype="input"/>
+    </net>
+    <net code="52" name="/USB Outputs 3&amp;4/ILM_LO4">
+      <node ref="R36" pin="1" pintype="passive"/>
+      <node ref="U7" pin="15" pinfunction="ILM_LO" pintype="input"/>
+    </net>
+    <net code="53" name="/USB Outputs 3&amp;4/PORT3_CLAMP">
+      <node ref="R23" pin="2" pintype="passive"/>
+      <node ref="U6" pin="9" pinfunction="~{STATUS}" pintype="output"/>
+      <node ref="U7" pin="4" pinfunction="ILM_SEL" pintype="input"/>
+    </net>
+    <net code="54" name="/USB Outputs 3&amp;4/PORT4_CLAMP">
+      <node ref="R24" pin="2" pintype="passive"/>
+      <node ref="U6" pin="4" pinfunction="ILM_SEL" pintype="input"/>
+      <node ref="U7" pin="9" pinfunction="~{STATUS}" pintype="output"/>
+    </net>
+    <net code="55" name="/USB Outputs 3&amp;4/USB_OUT3_PORT_D+">
+      <node ref="D5" pin="1" pinfunction="NC" pintype="bidirectional"/>
+      <node ref="D5" pin="14" pinfunction="D1P" pintype="bidirectional"/>
+      <node ref="J6" pin="3" pinfunction="D+" pintype="bidirectional"/>
+      <node ref="U6" pin="3" pinfunction="DP_OUT" pintype="bidirectional"/>
+    </net>
+    <net code="56" name="/USB Outputs 3&amp;4/USB_OUT3_PORT_D-">
+      <node ref="D5" pin="13" pinfunction="D1N" pintype="bidirectional"/>
+      <node ref="D5" pin="2" pinfunction="NC" pintype="bidirectional"/>
+      <node ref="J6" pin="2" pinfunction="D-" pintype="bidirectional"/>
+      <node ref="U6" pin="2" pinfunction="DM_OUT" pintype="bidirectional"/>
+    </net>
+    <net code="57" name="/USB Outputs 3&amp;4/USB_OUT3_SSTX+">
+      <node ref="C48" pin="2" pintype="passive"/>
+      <node ref="D5" pin="12" pinfunction="D2P" pintype="bidirectional"/>
+      <node ref="D5" pin="3" pinfunction="NC" pintype="bidirectional"/>
+      <node ref="J6" pin="9" pinfunction="SSTX+" pintype="input"/>
+    </net>
+    <net code="58" name="/USB Outputs 3&amp;4/USB_OUT3_SSTX-">
+      <node ref="C49" pin="2" pintype="passive"/>
+      <node ref="D5" pin="11" pinfunction="D2N" pintype="bidirectional"/>
+      <node ref="D5" pin="4" pinfunction="NC" pintype="bidirectional"/>
+      <node ref="J6" pin="8" pinfunction="SSTX-" pintype="input"/>
+    </net>
+    <net code="59" name="/USB Outputs 3&amp;4/USB_OUT4_PORT_D+">
+      <node ref="D4" pin="1" pinfunction="NC" pintype="bidirectional"/>
+      <node ref="D4" pin="14" pinfunction="D1P" pintype="bidirectional"/>
+      <node ref="J5" pin="3" pinfunction="D+" pintype="bidirectional"/>
+      <node ref="U7" pin="3" pinfunction="DP_OUT" pintype="bidirectional"/>
+    </net>
+    <net code="60" name="/USB Outputs 3&amp;4/USB_OUT4_PORT_D-">
+      <node ref="D4" pin="13" pinfunction="D1N" pintype="bidirectional"/>
+      <node ref="D4" pin="2" pinfunction="NC" pintype="bidirectional"/>
+      <node ref="J5" pin="2" pinfunction="D-" pintype="bidirectional"/>
+      <node ref="U7" pin="2" pinfunction="DM_OUT" pintype="bidirectional"/>
+    </net>
+    <net code="61" name="/USB Outputs 3&amp;4/USB_OUT4_SSTX+">
+      <node ref="C46" pin="2" pintype="passive"/>
+      <node ref="D4" pin="12" pinfunction="D2P" pintype="bidirectional"/>
+      <node ref="D4" pin="3" pinfunction="NC" pintype="bidirectional"/>
+      <node ref="J5" pin="9" pinfunction="SSTX+" pintype="input"/>
+    </net>
+    <net code="62" name="/USB Outputs 3&amp;4/USB_OUT4_SSTX-">
+      <node ref="C47" pin="2" pintype="passive"/>
+      <node ref="D4" pin="11" pinfunction="D2N" pintype="bidirectional"/>
+      <node ref="D4" pin="4" pinfunction="NC" pintype="bidirectional"/>
+      <node ref="J5" pin="8" pinfunction="SSTX-" pintype="input"/>
+    </net>
+    <net code="63" name="/USB Outputs 3&amp;4/VBUS_OUT3">
+      <node ref="C51" pin="1" pintype="passive"/>
+      <node ref="J6" pin="1" pinfunction="VBUS" pintype="power_in"/>
+      <node ref="L4" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="64" name="/USB Outputs 3&amp;4/VBUS_OUT3_PRE_PI">
+      <node ref="C45" pin="1" pintype="passive"/>
+      <node ref="L4" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U6" pin="12" pinfunction="OUT" pintype="power_out"/>
+    </net>
+    <net code="65" name="/USB Outputs 3&amp;4/VBUS_OUT4">
+      <node ref="C50" pin="1" pintype="passive"/>
+      <node ref="J5" pin="1" pinfunction="VBUS" pintype="power_in"/>
+      <node ref="L3" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="66" name="/USB Outputs 3&amp;4/VBUS_OUT4_PRE_PI">
+      <node ref="C44" pin="1" pintype="passive"/>
+      <node ref="L3" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U7" pin="12" pinfunction="OUT" pintype="power_out"/>
+    </net>
+    <net code="67" name="/USB_HOST_D+">
+      <node ref="D1" pin="1" pinfunction="NC" pintype="bidirectional"/>
+      <node ref="D1" pin="14" pinfunction="D1P" pintype="bidirectional"/>
+      <node ref="J1" pin="3" pinfunction="D+" pintype="bidirectional"/>
+      <node ref="U1" pin="53" pinfunction="USB_DP_UP" pintype="bidirectional"/>
+    </net>
+    <net code="68" name="/USB_HOST_D-">
+      <node ref="D1" pin="13" pinfunction="D1N" pintype="bidirectional"/>
+      <node ref="D1" pin="2" pinfunction="NC" pintype="bidirectional"/>
+      <node ref="J1" pin="2" pinfunction="D-" pintype="bidirectional"/>
+      <node ref="U1" pin="54" pinfunction="USB_DM_UP" pintype="bidirectional"/>
+    </net>
+    <net code="69" name="/USB_HOST_PC_SSTX+">
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="D1" pin="12" pinfunction="D2P" pintype="bidirectional"/>
+      <node ref="D1" pin="3" pinfunction="NC" pintype="bidirectional"/>
+      <node ref="J1" pin="9" pinfunction="SSTX+" pintype="input"/>
+    </net>
+    <net code="70" name="/USB_HOST_PC_SSTX-">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="D1" pin="11" pinfunction="D2N" pintype="bidirectional"/>
+      <node ref="D1" pin="4" pinfunction="NC" pintype="bidirectional"/>
+      <node ref="J1" pin="8" pinfunction="SSTX-" pintype="input"/>
+    </net>
+    <net code="71" name="/USB_HOST_SSRX+">
+      <node ref="D1" pin="6" pinfunction="NC" pintype="bidirectional"/>
+      <node ref="D1" pin="9" pinfunction="D3P" pintype="bidirectional"/>
+      <node ref="J1" pin="6" pinfunction="SSRX+" pintype="output"/>
+      <node ref="U1" pin="58" pinfunction="USB_SSRXP_UP" pintype="input"/>
+    </net>
+    <net code="72" name="/USB_HOST_SSRX-">
+      <node ref="D1" pin="7" pinfunction="NC" pintype="bidirectional"/>
+      <node ref="D1" pin="8" pinfunction="D3N" pintype="bidirectional"/>
+      <node ref="J1" pin="5" pinfunction="SSRX-" pintype="output"/>
+      <node ref="U1" pin="59" pinfunction="USB_SSRXM_UP" pintype="input"/>
+    </net>
+    <net code="73" name="/USB_HOST_SSTX+">
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="U1" pin="55" pinfunction="USB_SSTXP_UP" pintype="output"/>
+    </net>
+    <net code="74" name="/USB_HOST_SSTX-">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="U1" pin="56" pinfunction="USB_SSTXM_UP" pintype="output"/>
+    </net>
+    <net code="75" name="/USB_OUT1_D+">
+      <node ref="U1" pin="1" pinfunction="USB_DP_DN1" pintype="bidirectional"/>
+      <node ref="U4" pin="10" pinfunction="DP_IN" pintype="bidirectional"/>
+    </net>
+    <net code="76" name="/USB_OUT1_D-">
+      <node ref="U1" pin="2" pinfunction="USB_DM_DN1" pintype="bidirectional"/>
+      <node ref="U4" pin="11" pinfunction="DM_IN" pintype="bidirectional"/>
+    </net>
+    <net code="77" name="/USB_OUT1_SSRX+">
+      <node ref="D3" pin="6" pinfunction="NC" pintype="bidirectional"/>
+      <node ref="D3" pin="9" pinfunction="D3P" pintype="bidirectional"/>
+      <node ref="J4" pin="6" pinfunction="SSRX+" pintype="output"/>
+      <node ref="U1" pin="6" pinfunction="USB_SSRXP_DN1" pintype="input"/>
+    </net>
+    <net code="78" name="/USB_OUT1_SSRX-">
+      <node ref="D3" pin="7" pinfunction="NC" pintype="bidirectional"/>
+      <node ref="D3" pin="8" pinfunction="D3N" pintype="bidirectional"/>
+      <node ref="J4" pin="5" pinfunction="SSRX-" pintype="output"/>
+      <node ref="U1" pin="7" pinfunction="USB_SSRXM_DN1" pintype="input"/>
+    </net>
+    <net code="79" name="/USB_OUT1_SSTX+">
+      <node ref="C36" pin="1" pintype="passive"/>
+      <node ref="U1" pin="3" pinfunction="USB_SSTXP_DN1" pintype="output"/>
+    </net>
+    <net code="80" name="/USB_OUT1_SSTX-">
+      <node ref="C37" pin="1" pintype="passive"/>
+      <node ref="U1" pin="4" pinfunction="USB_SSTXM_DN1" pintype="output"/>
+    </net>
+    <net code="81" name="/USB_OUT2_D+">
+      <node ref="U1" pin="9" pinfunction="USB_DP_DN2" pintype="bidirectional"/>
+      <node ref="U5" pin="10" pinfunction="DP_IN" pintype="bidirectional"/>
+    </net>
+    <net code="82" name="/USB_OUT2_D-">
+      <node ref="U1" pin="10" pinfunction="USB_DM_DN2" pintype="bidirectional"/>
+      <node ref="U5" pin="11" pinfunction="DM_IN" pintype="bidirectional"/>
+    </net>
+    <net code="83" name="/USB_OUT2_SSRX+">
+      <node ref="D2" pin="6" pinfunction="NC" pintype="bidirectional"/>
+      <node ref="D2" pin="9" pinfunction="D3P" pintype="bidirectional"/>
+      <node ref="J3" pin="6" pinfunction="SSRX+" pintype="output"/>
+      <node ref="U1" pin="14" pinfunction="USB_SSRXP_DN2" pintype="input"/>
+    </net>
+    <net code="84" name="/USB_OUT2_SSRX-">
+      <node ref="D2" pin="7" pinfunction="NC" pintype="bidirectional"/>
+      <node ref="D2" pin="8" pinfunction="D3N" pintype="bidirectional"/>
+      <node ref="J3" pin="5" pinfunction="SSRX-" pintype="output"/>
+      <node ref="U1" pin="15" pinfunction="USB_SSRXM_DN2" pintype="input"/>
+    </net>
+    <net code="85" name="/USB_OUT2_SSTX+">
+      <node ref="C34" pin="1" pintype="passive"/>
+      <node ref="U1" pin="11" pinfunction="USB_SSTXP_DN2" pintype="output"/>
+    </net>
+    <net code="86" name="/USB_OUT2_SSTX-">
+      <node ref="C35" pin="1" pintype="passive"/>
+      <node ref="U1" pin="12" pinfunction="USB_SSTXM_DN2" pintype="output"/>
+    </net>
+    <net code="87" name="/USB_OUT3_D+">
+      <node ref="U1" pin="17" pinfunction="USB_DP_DN3" pintype="bidirectional"/>
+      <node ref="U6" pin="10" pinfunction="DP_IN" pintype="bidirectional"/>
+    </net>
+    <net code="88" name="/USB_OUT3_D-">
+      <node ref="U1" pin="18" pinfunction="USB_DM_DN3" pintype="bidirectional"/>
+      <node ref="U6" pin="11" pinfunction="DM_IN" pintype="bidirectional"/>
+    </net>
+    <net code="89" name="/USB_OUT3_SSRX+">
+      <node ref="D5" pin="6" pinfunction="NC" pintype="bidirectional"/>
+      <node ref="D5" pin="9" pinfunction="D3P" pintype="bidirectional"/>
+      <node ref="J6" pin="6" pinfunction="SSRX+" pintype="output"/>
+      <node ref="U1" pin="22" pinfunction="USB_SSRXP_DN3" pintype="input"/>
+    </net>
+    <net code="90" name="/USB_OUT3_SSRX-">
+      <node ref="D5" pin="7" pinfunction="NC" pintype="bidirectional"/>
+      <node ref="D5" pin="8" pinfunction="D3N" pintype="bidirectional"/>
+      <node ref="J6" pin="5" pinfunction="SSRX-" pintype="output"/>
+      <node ref="U1" pin="23" pinfunction="USB_SSRXM_DN3" pintype="input"/>
+    </net>
+    <net code="91" name="/USB_OUT3_SSTX+">
+      <node ref="C48" pin="1" pintype="passive"/>
+      <node ref="U1" pin="19" pinfunction="USB_SSTXP_DN3" pintype="output"/>
+    </net>
+    <net code="92" name="/USB_OUT3_SSTX-">
+      <node ref="C49" pin="1" pintype="passive"/>
+      <node ref="U1" pin="20" pinfunction="USB_SSTXM_DN3" pintype="output"/>
+    </net>
+    <net code="93" name="/USB_OUT4_D+">
+      <node ref="U1" pin="24" pinfunction="USB_DP_DN4" pintype="bidirectional"/>
+      <node ref="U7" pin="10" pinfunction="DP_IN" pintype="bidirectional"/>
+    </net>
+    <net code="94" name="/USB_OUT4_D-">
+      <node ref="U1" pin="25" pinfunction="USB_DM_DN4" pintype="bidirectional"/>
+      <node ref="U7" pin="11" pinfunction="DM_IN" pintype="bidirectional"/>
+    </net>
+    <net code="95" name="/USB_OUT4_SSRX+">
+      <node ref="D4" pin="6" pinfunction="NC" pintype="bidirectional"/>
+      <node ref="D4" pin="9" pinfunction="D3P" pintype="bidirectional"/>
+      <node ref="J5" pin="6" pinfunction="SSRX+" pintype="output"/>
+      <node ref="U1" pin="29" pinfunction="USB_SSRXP_DN4" pintype="input"/>
+    </net>
+    <net code="96" name="/USB_OUT4_SSRX-">
+      <node ref="D4" pin="7" pinfunction="NC" pintype="bidirectional"/>
+      <node ref="D4" pin="8" pinfunction="D3N" pintype="bidirectional"/>
+      <node ref="J5" pin="5" pinfunction="SSRX-" pintype="output"/>
+      <node ref="U1" pin="30" pinfunction="USB_SSRXM_DN4" pintype="input"/>
+    </net>
+    <net code="97" name="/USB_OUT4_SSTX+">
+      <node ref="C46" pin="1" pintype="passive"/>
+      <node ref="U1" pin="26" pinfunction="USB_SSTXP_DN4" pintype="output"/>
+    </net>
+    <net code="98" name="/USB_OUT4_SSTX-">
+      <node ref="C47" pin="1" pintype="passive"/>
+      <node ref="U1" pin="27" pinfunction="USB_SSTXM_DN4" pintype="output"/>
+    </net>
+    <net code="99" name="/USB_R1">
+      <node ref="R5" pin="1" pintype="passive"/>
+      <node ref="U1" pin="64" pinfunction="USB_R1" pintype="input"/>
+    </net>
+    <net code="100" name="GND">
+      <node ref="C10" pin="2" pintype="passive"/>
+      <node ref="C11" pin="2" pintype="passive"/>
+      <node ref="C12" pin="2" pintype="passive"/>
+      <node ref="C13" pin="2" pintype="passive"/>
+      <node ref="C14" pin="2" pintype="passive"/>
+      <node ref="C15" pin="2" pintype="passive"/>
+      <node ref="C16" pin="2" pintype="passive"/>
+      <node ref="C17" pin="2" pintype="passive"/>
+      <node ref="C18" pin="2" pintype="passive"/>
+      <node ref="C19" pin="2" pintype="passive"/>
+      <node ref="C20" pin="2" pintype="passive"/>
+      <node ref="C21" pin="2" pintype="passive"/>
+      <node ref="C22" pin="2" pintype="passive"/>
+      <node ref="C23" pin="2" pintype="passive"/>
+      <node ref="C24" pin="2" pintype="passive"/>
+      <node ref="C25" pin="2" pintype="passive"/>
+      <node ref="C26" pin="2" pintype="passive"/>
+      <node ref="C27" pin="2" pintype="passive"/>
+      <node ref="C28" pin="2" pintype="passive"/>
+      <node ref="C29" pin="2" pintype="passive"/>
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="C30" pin="2" pintype="passive"/>
+      <node ref="C31" pin="2" pintype="passive"/>
+      <node ref="C32" pin="2" pintype="passive"/>
+      <node ref="C33" pin="2" pintype="passive"/>
+      <node ref="C38" pin="2" pintype="passive"/>
+      <node ref="C39" pin="2" pintype="passive"/>
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="C40" pin="2" pintype="passive"/>
+      <node ref="C41" pin="2" pintype="passive"/>
+      <node ref="C42" pin="2" pintype="passive"/>
+      <node ref="C43" pin="2" pintype="passive"/>
+      <node ref="C44" pin="2" pintype="passive"/>
+      <node ref="C45" pin="2" pintype="passive"/>
+      <node ref="C5" pin="2" pintype="passive"/>
+      <node ref="C50" pin="2" pintype="passive"/>
+      <node ref="C51" pin="2" pintype="passive"/>
+      <node ref="C6" pin="2" pintype="passive"/>
+      <node ref="C8" pin="2" pintype="passive"/>
+      <node ref="C9" pin="2" pintype="passive"/>
+      <node ref="D1" pin="10" pinfunction="GND" pintype="power_in"/>
+      <node ref="D1" pin="5" pinfunction="GND" pintype="power_in"/>
+      <node ref="D2" pin="10" pinfunction="GND" pintype="power_in"/>
+      <node ref="D2" pin="5" pinfunction="GND" pintype="power_in"/>
+      <node ref="D3" pin="10" pinfunction="GND" pintype="power_in"/>
+      <node ref="D3" pin="5" pinfunction="GND" pintype="power_in"/>
+      <node ref="D4" pin="10" pinfunction="GND" pintype="power_in"/>
+      <node ref="D4" pin="5" pinfunction="GND" pintype="power_in"/>
+      <node ref="D5" pin="10" pinfunction="GND" pintype="power_in"/>
+      <node ref="D5" pin="5" pinfunction="GND" pintype="power_in"/>
+      <node ref="J1" pin="10" pinfunction="SHIELD" pintype="passive"/>
+      <node ref="J1" pin="4" pinfunction="GND" pintype="power_in"/>
+      <node ref="J1" pin="7" pinfunction="DRAIN" pintype="passive"/>
+      <node ref="J2" pin="2" pintype="passive"/>
+      <node ref="J2" pin="3" pintype="passive"/>
+      <node ref="J3" pin="10" pinfunction="SHIELD" pintype="passive"/>
+      <node ref="J3" pin="4" pinfunction="GND" pintype="power_in"/>
+      <node ref="J3" pin="7" pinfunction="DRAIN" pintype="passive"/>
+      <node ref="J4" pin="10" pinfunction="SHIELD" pintype="passive"/>
+      <node ref="J4" pin="4" pinfunction="GND" pintype="power_in"/>
+      <node ref="J4" pin="7" pinfunction="DRAIN" pintype="passive"/>
+      <node ref="J5" pin="10" pinfunction="SHIELD" pintype="passive"/>
+      <node ref="J5" pin="4" pinfunction="GND" pintype="power_in"/>
+      <node ref="J5" pin="7" pinfunction="DRAIN" pintype="passive"/>
+      <node ref="J6" pin="10" pinfunction="SHIELD" pintype="passive"/>
+      <node ref="J6" pin="4" pinfunction="GND" pintype="power_in"/>
+      <node ref="J6" pin="7" pinfunction="DRAIN" pintype="passive"/>
+      <node ref="R17" pin="2" pintype="passive"/>
+      <node ref="R18" pin="2" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="R21" pin="2" pintype="passive"/>
+      <node ref="R22" pin="2" pintype="passive"/>
+      <node ref="R31" pin="2" pintype="passive"/>
+      <node ref="R32" pin="2" pintype="passive"/>
+      <node ref="R35" pin="2" pintype="passive"/>
+      <node ref="R36" pin="2" pintype="passive"/>
+      <node ref="R4" pin="2" pintype="passive"/>
+      <node ref="R5" pin="2" pintype="passive"/>
+      <node ref="R6" pin="2" pintype="passive"/>
+      <node ref="R7" pin="2" pintype="passive"/>
+      <node ref="U1" pin="65" pinfunction="VSS" pintype="power_in"/>
+      <node ref="U2" pin="2" pinfunction="GND" pintype="power_in"/>
+      <node ref="U3" pin="2" pinfunction="GND" pintype="power_in"/>
+      <node ref="U4" pin="14" pinfunction="GND" pintype="power_in"/>
+      <node ref="U5" pin="14" pinfunction="GND" pintype="power_in"/>
+      <node ref="U6" pin="14" pinfunction="GND" pintype="power_in"/>
+      <node ref="U7" pin="14" pinfunction="GND" pintype="power_in"/>
+      <node ref="Y1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="Y1" pin="4" pinfunction="4" pintype="passive"/>
+    </net>
+    <net code="101" name="Net-(C10-Pad1)">
+      <node ref="C10" pin="1" pintype="passive"/>
+      <node ref="U2" pin="4" pinfunction="BP" pintype="input"/>
+    </net>
+    <net code="102" name="Net-(C18-Pad1)">
+      <node ref="C18" pin="1" pintype="passive"/>
+      <node ref="U3" pin="4" pinfunction="BP" pintype="input"/>
+    </net>
+    <net code="103" name="Net-(R31-Pad1)">
+      <node ref="R31" pin="1" pintype="passive"/>
+      <node ref="U6" pin="16" pinfunction="ILM_HI" pintype="input"/>
+    </net>
+    <net code="104" name="Net-(R35-Pad1)">
+      <node ref="R35" pin="1" pintype="passive"/>
+      <node ref="U6" pin="15" pinfunction="ILM_LO" pintype="input"/>
+    </net>
+    <net code="105" name="VBUS_HOST_FILT">
+      <node ref="R8" pin="2" pintype="passive"/>
+    </net>
+    <net code="106" name="unconnected-(U1-Pad37)">
+      <node ref="U1" pin="37" pinfunction="SDA/SMBDAT" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="107" name="unconnected-(U1-Pad38)">
+      <node ref="U1" pin="38" pinfunction="SCL/SMBCLK" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="108" name="unconnected-(U1-Pad39)">
+      <node ref="U1" pin="39" pinfunction="SMBUSz/SS_SUSPEND" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="109" name="unconnected-(U1-Pad49)">
+      <node ref="U1" pin="49" pinfunction="TEST" pintype="input+no_connect"/>
+    </net>
+    <net code="110" name="unconnected-(U1-Pad60)">
+      <node ref="U1" pin="60" pinfunction="NC" pintype="no_connect"/>
+    </net>
+  </nets>
+</export>

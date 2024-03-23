@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name "TPD SPD")(type "KiCad")(uri "C:/Users/ethan/Downloads/ul_TPD6E05U06RVZR (1)/KiCAD/footprints.pretty")(options "")(descr ""))
+  (lib (name "TPS2546RTER")(type "KiCad")(uri "C:/Users/ethan/Downloads/ul_TPS2546RTER/KiCAD/footprints.pretty")(options "")(descr ""))
+)
